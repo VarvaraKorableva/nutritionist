@@ -1,15 +1,16 @@
 import './Header.css'
 import FrameDiv from '../UI-Kit/Frame/FrameDiv'
+import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
     <header className="header">
     <FrameDiv className="header__container">
 
-      <div className="header__logoContainer">
+      <Link to={`/`} className="header__logoContainer">
         <div className="header__logoImg"></div>
         <div className="header__logoName">Рина Денисова</div>
-      </div>  
+      </Link>  
 
       <div className="header__navWrapper">
         <nav className="header__nav">

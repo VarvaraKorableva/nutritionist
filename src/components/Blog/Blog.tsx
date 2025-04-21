@@ -1,15 +1,24 @@
 import './Blog.css'
+import { Link } from 'react-router-dom';
 import Heading from '../UI-Kit/Heading/Heading'
 import FrameSection from '../UI-Kit/Frame/FrameSection'
+import blogs from '../../Data/blogs.json'
 import noSugarBenefits from '../../images/no-sugar-benefits.jpg'
+import drinkingWater from '../../images/drinking-water.jpg'
+import energyBreakfasts from '../../images/energy-breakfasts.jpg'
+import noSugarGuide from '../../images/no-sugar-guide.jpg'
+import healthySnacks from '../../images/healthy-snacks.jpg'
+import dietStrategies from '../../images/diet-strategies.jpg'
+import nutritionMyths from '../../images/nutrition-myths.jpg'
 
 export default function Blog() {
 
-    const blogs = [
+/*    const blogs = [
         // ЗДОРОВЫЕ ПРИВЫЧКИ
         {
             id: 1,
             title: "Зачем отказываться от сладкого?",
+            slug: "zachem-otkazyvatsya-ot-sladkogo",
             category: "здоровые привычки",
             image: noSugarBenefits,
             content: [
@@ -50,8 +59,9 @@ export default function Blog() {
         {
             id: 2,
             title: "Как отказаться от сладкого: пошаговый подход",
+            slug: "kak-otkazatsya-ot-sladkogo-poshagovyy-podkhod",
             category: "здоровые привычки",
-            image: "/images/no-sugar-guide.jpg",
+            image: noSugarGuide ,
             content: [
               {
                 id: 1,
@@ -90,8 +100,9 @@ export default function Blog() {
         {
             id: 3,
             title: "Топ-5 здоровых перекусов без сахара",
+            slug: "top-5-zdorovyh-perekusov-bez-sahara",
             category: "рецепты",
-            image: "/images/healthy-snacks.jpg",
+            image: healthySnacks,
             content: [
               {
                 id: 1,
@@ -126,8 +137,9 @@ export default function Blog() {
         {
             id: 4,
             title: "Как не сорваться на диете: 5 простых стратегий",
+            slug: "kak-ne-sorvatsya-na-diete-5-prostyh-strategiy",
             category: "здоровые привычки",
-            image: "/images/diet-strategies.jpg",
+            image: dietStrategies,
             content: [
               {
                 id: 1,
@@ -162,8 +174,9 @@ export default function Blog() {
         {
             id: 5,
             title: "Мифы о питании: что на самом деле стоит знать",
+            slug: "mify-o-pitanii-chto-na-samom-dele-stoit-znat",
             category: "мифы о питании",
-            image: "/images/nutrition-myths.jpg",
+            image: nutritionMyths,
             content: [
               {
                 id: 1,
@@ -198,8 +211,9 @@ export default function Blog() {
         {
             id: 6,
             title: "Завтраки, которые действительно дадут энергию",
+            slug: "zavtraki-kotorye-deystvitelno-dadut-energiyu",
             category: "рецепты",
-            image: "/images/energy-breakfasts.jpg",
+            image: energyBreakfasts,
             content: [
               {
                 id: 1,
@@ -234,8 +248,9 @@ export default function Blog() {
         {
             id: 7,
             title: "Как пить воду правильно: 5 полезных советов",
+            slug: "kak-pit-vodu-pravilno-5-poleznyh-sovetov",
             category: "здоровье",
-            image: "/images/drinking-water.jpg",
+            image: drinkingWater,
             content: [
               {
                 id: 1,
@@ -267,7 +282,7 @@ export default function Blog() {
               }
             ]
         }
-    ];
+    ];*/
         
   return (
     <section className="blog__wrapper">
@@ -275,20 +290,24 @@ export default function Blog() {
         <Heading>Блог</Heading>
         <ul className="blog__ulWrapper">
             {blogs.map((i) => 
-                <li key={i.id} className="blog__card">
-                    <img src={i.image} alt={`Картинка по теме ${i.title}`} className="blog__img"></img>
+
+                <li key={i.id} className={`blog__card ${i.id % 2 !== 0 ? 'blog__cardReverse' : ''}`}>
+                    <div className="blog__imgContainer">
+                        <img src={i.image} alt={`Картинка по теме ${i.title}`} className="blog__img"></img>
+                    </div>
                     <div className="blog__textAndTitleContainer">
                         <h3 className="blog__title">{i.title}</h3>
                         <div className="blog__textContainer">
-                            {i.content.slice(0, 3).map((item) =>
+                            {i.content.slice(0, 4).map((item) =>
                                 <p key={item.id}>{item.paragraph}</p>
                             )}
-
-
-                            <button className="blog__btn">Прочитать статью полностью</button>
+                            <Link to={`/blog/${i.slug}`} className={`blog__btn ${i.id % 2 !== 0 ? 'blog__btnReverse' : ''}`}>
+                                Прочитать статью полностью
+                            </Link>
                         </div>
                     </div>
                 </li>
+                
             )}
         </ul>
         
