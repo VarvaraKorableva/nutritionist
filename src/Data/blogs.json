@@ -160,7 +160,7 @@
         "title": "Мифы о питании: что на самом деле стоит знать",
         "slug": "mify-o-pitanii-chto-na-samom-dele-stoit-znat",
         "category": "мифы о питании",
-        "image": "nutritionMyths",
+        "image": "/images/nutrition-myths.jpg",
         "content": [
           {
             "id": 1,
@@ -197,7 +197,7 @@
         "title": "Завтраки, которые действительно дадут энергию",
         "slug": "zavtraki-kotorye-deystvitelno-dadut-energiyu",
         "category": "рецепты",
-        "image": "energyBreakfasts",
+        "image": "/images/energy-breakfasts.jpg",
         "content": [
           {
             "id": 1,
