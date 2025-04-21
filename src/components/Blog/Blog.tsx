@@ -7,7 +7,7 @@ import blogs from '../../Data/blogs.json'
 export default function Blog() {
         
   return (
-    <section className="blog__wrapper">
+    <section className="blog__wrapper" id="adviсe">
       <FrameSection>
         <Heading>Блог</Heading>
         <ul className="blog__ulWrapper">

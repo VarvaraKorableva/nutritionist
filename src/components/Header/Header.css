@@ -82,12 +82,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
   }
   
   .header__cta:hover {
     color: #fff;
-    background: #4e7141;
+    background: #a2e8dc;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
     transition: all 0.3s ease;
   }

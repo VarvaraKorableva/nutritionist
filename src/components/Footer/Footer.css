@@ -1,0 +1,27 @@
+.footer__section {
+    background-image: url(../../images/footerpic.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    box-sizing: border-box;
+}
+
+.footer__blurContainer {
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 200px;
+    padding: 80px 0;
+}
+
+.footer__contact-container {
+    max-width: 500px;
+    display: flex;
+}

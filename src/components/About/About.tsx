@@ -4,7 +4,7 @@ import FrameSection from '../UI-Kit/Frame/FrameSection'
 
 export default function About() {
   return (
-    <div className="about__wrapper">
+    <section className="about__wrapper" id="about">
       <FrameSection>
         <Heading>Обо мне</Heading>
         <div className="about__heroPicAndTextContainer">
@@ -32,6 +32,6 @@ export default function About() {
         <p className="about__slogan"><strong>Я здесь, чтобы помочь вам научиться питаться в балансе — с телом, с разумом и с собой.</strong></p>
         
       </FrameSection> 
-    </div>
+    </section>
   )
 }

@@ -16,7 +16,7 @@ export default function Header() {
         <nav className="header__nav">
             <a href="#about">Обо мне</a>
             <a href="#services">Услуги</a>
-            <a href="#testimonials">Отзывы</a>
+            <a href="#reviews">Отзывы</a>
             <a href="#adviсe">Блог</a>
             <a href="#contact">Контакты</a>
         </nav>
