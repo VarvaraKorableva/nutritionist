@@ -1,0 +1,13 @@
+.heading {
+    font-size: 40px;
+    color: #374BA5;
+    margin: 0;
+    text-align: start;
+    align-self: flex-start;
+}
+
+@media screen and (max-width: 900px) {
+    .heading { 
+        font-size: 24px;
+    }
+}

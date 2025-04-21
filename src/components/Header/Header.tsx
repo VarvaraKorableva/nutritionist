@@ -1,8 +1,10 @@
 import './Header.css'
+import FrameDiv from '../UI-Kit/Frame/FrameDiv'
 
 export default function Header() {
   return (
     <header className="header">
+    <FrameDiv className="header__container">
 
       <div className="header__logoContainer">
         <div className="header__logoImg"></div>
@@ -23,6 +25,7 @@ export default function Header() {
         </a>
       </div>
 
+    </FrameDiv>  
     </header>
   )
 }

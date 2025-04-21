@@ -1,0 +1,40 @@
+.about__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__heroPic {
+    border: 5px solid green;
+    border-radius: 8px;
+    width: 30%;
+    height: 400px;
+    flex-shrink: 0;
+}
+
+.about__heroPicAndTextContainer {
+    display: flex;
+    gap: 50px;
+    margin: 50px 0;
+}
+
+.about__heroTextContainer {
+    margin: 0 0 50px 0;
+}
+
+.about__slogan {
+    color: #1f1f1f;
+    font-size: 26px;
+    margin: 0;
+    font-weight: 300;
+    line-height: 45px;
+}
+
+.about__text {
+    color: #1f1f1f;
+    font-size: 22px;
+    margin: 0;
+    font-weight: 300;
+    line-height: 45px;
+}

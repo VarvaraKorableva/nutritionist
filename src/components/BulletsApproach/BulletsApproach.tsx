@@ -4,16 +4,16 @@ export default function BulletsApproach() {
   return (
     <ul className="bulletsApproachWrapper">
         <li className="bulletsApproachContainer">
-            <p className="bulletsApproachText">Индивидуальный подход — никаких шаблонов, только то, что подходит вам</p>
+            <p className="bulletsApproachText">Без шаблонов и типовых схем — только то, что подходит именно вам: по образу жизни, предпочтениям и целям.</p>
         </li>
         <li className="bulletsApproachContainer">
-            <p className="bulletsApproachText">Без запретов и жёстких диет — еда должна радовать, а не пугать</p>
+            <p className="bulletsApproachText">Можно есть вкусно, без чувства вины и при этом достигать своих целей. Я за комфорт, а не стресс.</p>
         </li>
         <li className="bulletsApproachContainer">
-            <p className="bulletsApproachText">Всегда на связи — поддержка и мотивация на каждом этапе</p>
+            <p className="bulletsApproachText">Я на связи не только на консультации. Отвечаю на вопросы, поддерживаю и помогаю не срываться с пути.</p>
         </li>
         <li className="bulletsApproachContainer">
-            <p className="bulletsApproachText">Объясняю простыми словами — чтобы вы понимали, зачем это нужно</p>
+            <p className="bulletsApproachText">Никаких мифов, «чисток» и волшебных средств — только проверенные, безопасные рекомендации.</p>
         </li>
     </ul>
   )

@@ -1,10 +1,12 @@
 import './Hero.css'
 import { FaLinkedin, FaInstagram, FaWhatsapp, FaTelegram, FaGoogle } from 'react-icons/fa'
 import BulletsApproach from '../BulletsApproach/BulletsApproach'
+import FrameDiv from '../UI-Kit/Frame/FrameDiv'
 
 export default function Hero() {
   return (
     <section className="hero__section">
+      <FrameDiv >
         <div className="hero__infoContainer">
             <div className="hero__imgAndIconsContainer">
               <div className="hero__img"></div>
@@ -43,6 +45,7 @@ export default function Hero() {
         </div>
 
         <BulletsApproach/>
+      </FrameDiv>
     </section>
   )
 }

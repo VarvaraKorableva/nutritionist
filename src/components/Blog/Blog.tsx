@@ -1,8 +1,8 @@
-import './About.css'
+import './Blog.css'
 import Heading from '../UI-Kit/Heading/Heading'
 import FrameSection from '../UI-Kit/Frame/FrameSection'
 
-export default function About() {
+export default function Blog() {
   return (
     <div className="about__wrapper">
       <FrameSection>
