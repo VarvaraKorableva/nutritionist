@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 export default function Services() {
     return (
         <section className="services__wrapper" id="services">
-            <FrameSection id="services">
+            <FrameSection>
                 <Heading>Услуги и программы</Heading>
 
                 <ul className="services__cardWrapper">
