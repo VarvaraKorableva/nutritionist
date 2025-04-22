@@ -83,7 +83,7 @@ export default function ReviewsSlider() {
   }
 
   return (
-    <section className="testimonials" id="testimonials">
+    <section className="testimonials" id="reviews">
       <FrameSection>
         <Heading>Отзывы</Heading>
         <div className="slider-scroll-wrapper">
@@ -97,7 +97,7 @@ export default function ReviewsSlider() {
                     className="review-photo"
                   />
                   <div className="review-info">
-                    <h4>
+                    <h4 className="review__nameAndAge">
                       {review.name}, {review.age}
                     </h4>
                     <p className="review-program">{review.program}</p>

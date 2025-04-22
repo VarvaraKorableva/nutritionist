@@ -15,7 +15,7 @@ export default function Services() {
                         <Link className="services__card" key={service.id} to={`/services/${service.slug}`}>
                             
                             <h3 className="services__cardTitle">
-                                {service.emoji} {service.title}
+                                {service.title}
                             </h3>
                             
                             <p className="services__cardText">{service.description}</p>
@@ -25,9 +25,9 @@ export default function Services() {
                                 </p>
                             ))}
 
-                            <Link to={`/services/${service.slug}`} className="services__btn">
+                            <button to={`/services/${service.slug}`} className="services__btn">
                                 Узнать подробнее
-                            </Link>
+                            </button>
                         </Link>
                     ))}
                 </ul>

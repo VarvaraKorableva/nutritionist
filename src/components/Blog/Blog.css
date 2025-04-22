@@ -38,11 +38,12 @@
 .blog__imgContainer {
     width: 100%;
     max-width: 300px;
-    
+    height: fit-content;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
+    align-self: center;
   }
   
 .blog__img {
@@ -55,8 +56,9 @@
 
 .blog__textAndTitleContainer {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;  
+
+    margin-top: 0;
 }
 
 .blog__title {
@@ -70,8 +72,8 @@
 .blog__btn {
     align-self: flex-end;
     border-radius: 8px;
-    height: 40px;
-    width: 250px;
+    height: 50px;
+    width: 350px;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -84,11 +86,11 @@
     border: 1px solid #f7f7f7;
     color: #1f1f1f;
     text-decoration: none;
+    font-size: 18px;
+    font-family: "Roboto Slab", serif;
 }
 
 .blog__btn:hover {
-    height: 42px;
-    width: 252px;
     background-color: #f7f7f7;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }

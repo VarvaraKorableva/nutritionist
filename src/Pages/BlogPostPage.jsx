@@ -24,7 +24,7 @@ export default function BlogPostPage() {
         {/*<div className="blog__imgContainer">
             <img src={oneBlog.image} alt={`Картинка по теме ${oneBlog.title}`} className="blog__img"></img>
         </div>*/}
-        <div className="blog__textAndTitleContainer">
+        <div className="blogPostPage__textAndTitleContainer">
                 <div className="blog__textContainer">
                     {oneBlog.content.map((item) =>
                         <p className="blogPostPage__text" key={item.id}>{item.paragraph}</p>

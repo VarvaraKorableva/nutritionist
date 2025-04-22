@@ -16,6 +16,12 @@
     margin-top: 50px;
 }
 
+@media screen and (max-width: 1500px) {
+    .services__cardWrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 .services__card {
     border: 1px solid var(--light-grey-color);
     border-radius: 8px;
@@ -28,22 +34,29 @@
     font-weight: 300;
     line-height: 35px;
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .services__cardTitle {
     font-size: 24px;
     color: #1f1f1f;
+    /*min-height: 70px;*/
+    margin: 20px 0;
+    text-align: center;
 }
 
 .services__cardText {
     font-size: 22px;
+    margin: 10px 0;
 }
 
 .services__btn {
     align-self: flex-end;
     border-radius: 8px;
-    height: 40px;
-    width: 250px;
+    height: 50px;
+    width: 100%;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -53,11 +66,12 @@
     border: 1px solid #f7f7f7;
     color: #1f1f1f;
     text-decoration: none;
+    font-size: 18px;
+    font-family: "Roboto Slab", serif;
+    margin-top: 20px;
 }
 
 .services__btn:hover {
-    height: 42px;
-    width: 252px;
     background-color: #f7f7f7;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }

@@ -5,7 +5,6 @@
     position: sticky;
     top: 0;
     z-index: 100;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,8 +14,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*padding: 20px 0;
-    max-width: 1300px;*/
 }
 
 .header__logoContainer {
@@ -34,6 +31,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .header__logoImg {
     background-image: url(../../images/whitelogo.png);
     background-position: center;
@@ -82,11 +80,44 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
   
-  .header__cta:hover {
+.header__cta:hover {
     color: #fff;
     background: #a2e8dc;
+    background: #bbe6c8;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
     transition: all 0.3s ease;
-  }
+}
+
+@media screen and (max-width: 1300px) {
+    .header__navWrapper {
+        gap: 20px;
+    }
+
+    .header__nav a {
+        font-size: 18px;
+        margin: 0 10px;
+    }
+
+    .header__nav a:hover {
+        padding: 7px 15px;
+    } 
+
+    .header__cta {
+        border: 2px solid #89a974;
+        padding: 5px 20px;
+        font-weight: 400;
+        height: 35px;
+        width: 120px;
+    }
+
+    .header__logoName {
+        font-size: 24px;
+    }
+
+    .header__logoImg {
+        width: 80px;
+        height: 80px;
+    }
+}

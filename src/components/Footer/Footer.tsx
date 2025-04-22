@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="footer__section" id="contact">
       <div className="footer__blurContainer">
-      <FrameDiv >
+      
               
         <ul className='footer__contact-container'>
                   <li className='hero__contact-item'>
@@ -35,8 +35,6 @@ export default function Footer() {
                     </a>
                   </li>
             </ul>
-        
-      </FrameDiv>
       </div>
     </footer>
   )
