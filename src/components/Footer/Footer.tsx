@@ -1,6 +1,6 @@
 import './Footer.css'
 import { FaLinkedin, FaInstagram, FaWhatsapp, FaTelegram, FaGoogle } from 'react-icons/fa'
-import FrameDiv from '../UI-Kit/Frame/FrameDiv'
+//import FrameDiv from '../UI-Kit/Frame/FrameDiv'
 
 export default function Footer() {
   return (

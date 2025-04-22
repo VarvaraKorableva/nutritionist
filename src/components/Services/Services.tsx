@@ -25,7 +25,7 @@ export default function Services() {
                                 </p>
                             ))}
 
-                            <button to={`/services/${service.slug}`} className="services__btn">
+                            <button className="services__btn">
                                 Узнать подробнее
                             </button>
                         </Link>

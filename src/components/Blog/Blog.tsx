@@ -23,7 +23,7 @@ export default function Blog() {
                             {i.content.slice(0, 1).map((item) =>
                                 <p key={item.id} className="blog__text">{item.paragraph}</p>
                             )}
-                            <button to={`/blog/${i.slug}`} className={`blog__btn ${i.id % 2 !== 0 ? 'blog__btnReverse' : ''}`}>
+                            <button className={`blog__btn ${i.id % 2 !== 0 ? 'blog__btnReverse' : ''}`}>
                                 Прочитать статью полностью
                             </button>
                         </div>
