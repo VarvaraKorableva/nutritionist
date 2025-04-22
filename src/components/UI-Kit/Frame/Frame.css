@@ -26,3 +26,13 @@
     }
 }
 
+@media screen and (max-width: 500px) {
+    .frameSection {
+        margin: 0 10px 0 10px;
+    }
+
+    .frameDiv {
+        padding: 10px 10px;
+    }
+}
+

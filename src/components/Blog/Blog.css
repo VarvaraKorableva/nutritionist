@@ -57,7 +57,6 @@
 .blog__textAndTitleContainer {
     display: flex;
     flex-direction: column;  
-
     margin-top: 0;
 }
 
@@ -107,3 +106,33 @@
     font-weight: 300;
     line-height: 45px;
 }    
+
+@media screen and (max-width: 1000px) {
+    .blog__card {
+        flex-direction: column;
+    }
+    
+    .blog__cardReverse {
+        flex-direction: column;
+    }
+
+    .blog__imgContainer {
+        width: 100%;
+        max-width: 80%;
+        max-height: 400px;
+    }
+
+    .blog__img {
+        background-size: contain;
+        object-fit: unset;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .blog__imgContainer {
+        width: 100%;
+        max-width: 100%;
+        max-height: 350px;
+    }
+}

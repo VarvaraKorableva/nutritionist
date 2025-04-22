@@ -54,6 +54,10 @@
     margin-top: 0;
 }
 
+.hero__noWrap {
+    white-space: nowrap;
+}
+
 .hero__subtitle {
     color: #fff;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
@@ -96,11 +100,87 @@
 
     .hero__title {
         font-size: 62px;
-        max-width: 500px;
+        margin-bottom: 100px;
     }
 
     .hero__subtitle {
         font-size: 32px;
         font-weight: 400;
     }
+
+    .hero__textContainer {
+        align-self: flex-start;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .hero__title {
+        max-width: 700px;
+        font-size: 56px;
+    }
+
+    .hero__subtitle {
+        font-size: 28px;
+        font-weight: 400;
+    }
+
+    .hero__infoContainer {
+        gap: 50px;
+    }
+
+    .hero__img {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .hero__infoContainer {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero__title {
+        text-align: center;
+        align-items: center;
+        max-width: 80%;
+        margin-bottom: 50px;
+    }
+
+    .hero__subtitle {
+        text-align: center;
+    }
+
+    .hero__textContainer {
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .hero__section {
+        background-image: url(../../images/bgseaandtreesmall.jpg);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero__title {
+        font-size: 44px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .hero__subtitle {
+        font-size: 24px;
+    }
+    
+    .hero__section {
+        padding: 30px 0;
+    }
+
+    .hero__img {
+        width: 250px;
+        height: 250px;
+    }
+
 }

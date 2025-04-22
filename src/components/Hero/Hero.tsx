@@ -39,7 +39,7 @@ export default function Hero() {
                 </ul>
             </div>
             <div className="hero__textContainer">
-                <h1 className="hero__title">Фитнес тренер нутрициолог врач, к.м.н.</h1>
+                <h1 className="hero__title"><span className="hero__noWrap">Фитнес тренер</span> нутрициолог <span className="hero__noWrap">врач, к.м.н.</span></h1>
                 <h2 className="hero__subtitle">Мотивирую заниматься физической активностью</h2>
             </div>
         </div>
