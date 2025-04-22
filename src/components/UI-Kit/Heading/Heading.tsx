@@ -1,6 +1,11 @@
 import './Heading.css'
+import { ReactNode } from 'react'
 
-function Heading({children}) {
+type HeadingProps = {
+    children: ReactNode
+}
+
+function Heading({children} : HeadingProps) {
     return(
         <h2 className='heading'>{children}</h2>
     )

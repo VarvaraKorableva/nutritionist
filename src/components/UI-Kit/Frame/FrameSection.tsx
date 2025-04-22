@@ -1,4 +1,5 @@
 import './Frame.css'
+import { ReactNode } from 'react'
 
 function FrameSection({children}) {
     return(
