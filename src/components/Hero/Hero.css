@@ -167,13 +167,14 @@
 @media screen and (max-width: 600px) {
     .hero__title {
         font-size: 44px;
+        max-width: 100%;
     }
 }
 @media screen and (max-width: 500px) {
     .hero__subtitle {
         font-size: 24px;
     }
-    
+
     .hero__section {
         padding: 30px 0;
     }
@@ -183,4 +184,28 @@
         height: 250px;
     }
 
+}
+
+@media screen and (max-width: 380px) {
+    .header__logoName {
+        max-width: 120px;
+    }
+
+    .header__burgerIcon {
+        height: 22px;
+        width: 22px;
+    }
+
+    .header__cta {
+        height: 22px;
+        width: 22px;
+    }
+
+    .hero__title {
+        font-size: 38px;
+        margin-bottom: 20px;
+    } 
+    .hero__subtitle {
+        margin-bottom: 0;
+    }
 }

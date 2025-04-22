@@ -1,7 +1,6 @@
 .testimonials {
   background-color: #f9f9f9;
   text-align: center;
-
   scroll-margin-top: 100px;
 }
 
@@ -97,6 +96,10 @@
   .review-card {
     flex: 0 0 70%;
   }
+
+  .slider-controls {
+    display: none;
+  }
 }
 
 @media (max-width: 600px) {
@@ -117,6 +120,7 @@
   scroll-behavior: smooth;
   padding-bottom: 10px;
   width: fit-content;
+  /*width: 100%;*/
 }
 
 .slider-scroll-wrapper::-webkit-scrollbar,

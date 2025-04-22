@@ -171,3 +171,25 @@
         gap: 10px;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .header__navWrapper {
+        gap: 5px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .header__logoName {
+        max-width: 120px;
+    }
+
+    .header__burgerIcon {
+        height: 22px;
+        width: 22px;
+    }
+
+    .header__cta {
+        height: 22px;
+        width: 22px;
+    }
+}

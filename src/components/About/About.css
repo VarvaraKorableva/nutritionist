@@ -57,3 +57,26 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .about__slogan {
+        font-size: 22px;
+        line-height: 36px;
+    }
+    
+    .about__text {
+        font-size: 20px;
+        line-height: 36px;
+    }
+
+    .about__wrapper {
+        scroll-margin-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .about__heroTextContainer {
+        margin: 0 0 0 0;
+    }
+}
+
+

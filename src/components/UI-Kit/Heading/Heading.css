@@ -13,3 +13,10 @@
     }
 }
 
+@media screen and (max-width: 500px) {
+    .heading {
+        margin-top: 50px;
+        font-size: 32px;
+    }
+}
+
