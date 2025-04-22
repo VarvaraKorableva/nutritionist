@@ -1,7 +1,12 @@
 import './Frame.css'
 import { ReactNode } from 'react'
 
-function FrameDiv({children, className = ''}) {
+type FrameDivProps = {
+    children: ReactNode
+    className?: string
+}
+
+function FrameDiv({children, className = ''}: FrameDivProps) {
     return(
         <div className={`frameDiv ${className}`}>{children}</div>
     )
