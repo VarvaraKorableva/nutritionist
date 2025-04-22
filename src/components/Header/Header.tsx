@@ -17,7 +17,7 @@ export default function Header() {
     <header className="header">
     <FrameDiv className="header__container">
 
-      <Link to={`/`} className="header__logoContainer">
+      <Link to={`/nutritionist/`} className="header__logoContainer">
         <div className="header__logoImg"></div>
         <div className="header__logoName">Рина Денисова</div>
       </Link>  

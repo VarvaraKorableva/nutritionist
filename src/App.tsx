@@ -20,7 +20,7 @@ function App() {
 
       <Routes>
         <Route
-          path="/"
+          path="/nutritionist/"
           element={
             <>
               <Hero />
