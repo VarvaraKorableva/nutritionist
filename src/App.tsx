@@ -1,9 +1,9 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
 import About from './components/About/About'
 import Services from './components/Services/Services'
-import ReviewsSlider from './components/ReviewsSlider/ReviewsSlider'
+//import ReviewsSlider from './components/ReviewsSlider/ReviewsSlider'
 import Blog from './components/Blog/Blog'
 import BlogPostPage from './Pages/BlogPostPage'
 import ServiceDetailsPage from './Pages/ServiceDetailsPage/ServiceDetailsPage'
