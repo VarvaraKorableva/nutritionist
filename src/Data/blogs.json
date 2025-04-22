@@ -4,7 +4,7 @@
         "title": "Зачем отказываться от сладкого?",
         "slug": "zachem-otkazyvatsya-ot-sladkogo",
         "category": "здоровые привычки",
-        "image": "/images/no-sugar-benefits.jpg",
+        "image": "/nutritionist/images/no-sugar-benefits.jpg",
         "content": [
           {
             "id": 1,
@@ -45,7 +45,7 @@
         "title": "Как отказаться от сладкого: пошаговый подход",
         "slug": "kak-otkazatsya-ot-sladkogo-poshagovyy-podkhod",
         "category": "здоровые привычки",
-        "image": "/images/no-sugar-guide.jpg",
+        "image": "/nutritionist/images/no-sugar-guide.jpg",
         "content": [
           {
             "id": 1,
@@ -86,7 +86,7 @@
         "title": "Топ-5 здоровых перекусов без сахара",
         "slug": "top-5-zdorovyh-perekusov-bez-sahara",
         "category": "рецепты",
-        "image": "/images/healthy-snacks.jpg",
+        "image": "/nutritionist/images/healthy-snacks.jpg",
         "content": [
           {
             "id": 1,
@@ -123,7 +123,7 @@
         "title": "Как не сорваться на диете: 5 простых стратегий",
         "slug": "kak-ne-sorvatsya-na-diete-5-prostyh-strategiy",
         "category": "здоровые привычки",
-        "image": "/images/diet-strategies.jpg",
+        "image": "/nutritionist/images/diet-strategies.jpg",
         "content": [
           {
             "id": 1,
@@ -160,7 +160,7 @@
         "title": "Мифы о питании: что на самом деле стоит знать",
         "slug": "mify-o-pitanii-chto-na-samom-dele-stoit-znat",
         "category": "мифы о питании",
-        "image": "/images/nutrition-myths.jpg",
+        "image": "/nutritionist/images/nutrition-myths.jpg",
         "content": [
           {
             "id": 1,
@@ -197,7 +197,7 @@
         "title": "Завтраки, которые действительно дадут энергию",
         "slug": "zavtraki-kotorye-deystvitelno-dadut-energiyu",
         "category": "рецепты",
-        "image": "/images/energy-breakfasts.jpg",
+        "image": "/nutritionist/images/energy-breakfasts.jpg",
         "content": [
           {
             "id": 1,
@@ -234,7 +234,7 @@
         "title": "Как пить воду правильно: 5 полезных советов",
         "slug": "kak-pit-vodu-pravilno-5-poleznyh-sovetov",
         "category": "здоровье",
-        "image": "/images/drinking-water.jpg",
+        "image": "/nutritionist/images/drinking-water.jpg",
         "content": [
           {
             "id": 1,
