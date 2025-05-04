@@ -2,12 +2,17 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
 import About from './components/About/About'
+import MyPrinciples from './components/MyPrinciples/MyPrinciples'
 import Services from './components/Services/Services'
-//import ReviewsSlider from './components/ReviewsSlider/ReviewsSlider'
+import ReviewsSlider from './components/ReviewsSlider/ReviewsSlider'
 import Blog from './components/Blog/Blog'
 import BlogPostPage from './Pages/BlogPostPage'
 import ServiceDetailsPage from './Pages/ServiceDetailsPage/ServiceDetailsPage'
-
+import Mission from './components/Mission/Mission'
+import ForWhom from './components/ForWhom/ForWhom'
+import HowWeWork from './components/HowWeWork/HowWeWork'
+import YourResults from './components/YourResults/YourResults'
+import Education from './components/Education/Education'
 // import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 
@@ -24,10 +29,16 @@ function App() {
           element={
             <>
               <Hero />
+              <Mission />
               <About />
-              <Services />
-              {/*<ReviewsSlider/>*/}
-              <Blog/>
+              <MyPrinciples />
+              <ForWhom/>
+              <HowWeWork />
+              <YourResults />
+              <Education />
+              {/*<ReviewsSlider/>
+              <Services /> 
+              <Blog/>*/}
             </>
           }
         />

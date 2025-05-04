@@ -1,0 +1,22 @@
+.myPrinciples__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    scroll-margin-top: 100px;
+}
+
+.myPrinciples__principlesContainer {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.myPrinciples__principlesCard {
+    list-style-type: none;
+    border: 1px solid #1f1f1f;
+    border-radius: 30px;
+    padding: 20px;
+}

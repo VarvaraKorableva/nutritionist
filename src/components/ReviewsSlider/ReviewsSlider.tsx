@@ -83,8 +83,9 @@ export default function ReviewsSlider() {
   }
 
   return (
+    <FrameSection>
     <section className="testimonials" id="reviews">
-      <FrameSection>
+      
         <Heading>Отзывы</Heading>
         <div className="slider-scroll-wrapper">
           <div className="slider-container" ref={sliderRef}>
@@ -113,7 +114,8 @@ export default function ReviewsSlider() {
           <button onClick={() => scroll('left')}>←</button>
           <button onClick={() => scroll('right')}>→</button>
         </div>
-      </FrameSection>
+      
     </section>
+    </FrameSection>
   )
 }

@@ -37,14 +37,14 @@ export default function Hero() {
                     </a>
                   </li>
                 </ul>
+                <a className='hero__formLink'>Записаться на консультацию</a>
             </div>
             <div className="hero__textContainer">
-                <h1 className="hero__title"><span className="hero__noWrap">Фитнес тренер</span> нутрициолог <span className="hero__noWrap">врач, к.м.н.</span></h1>
-                <h2 className="hero__subtitle">Мотивирую заниматься физической активностью</h2>
+                <h1 className="hero__title">Health, wellness-коуч, фитнес-тренер, врач и к.м.н.</h1>
+                <h2 className="hero__subtitle">Индивидуальное сопровождение до результата</h2>
             </div>
         </div>
 
-        <BulletsApproach/>
       </FrameDiv>
     </section>
   )
