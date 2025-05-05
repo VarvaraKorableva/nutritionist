@@ -1,13 +1,13 @@
 import './Services.css'
 import Heading from '../UI-Kit/Heading/Heading'
-import FrameSection from '../UI-Kit/Frame/FrameSection'
+import Container from '../UI-Kit/Container/Container'
 import tariffs from '../../Data/tariffs.json'
 import { Link } from 'react-router-dom'
 
 export default function Services() {
     return (
         <section className="services__wrapper" id="services">
-            <FrameSection>
+            <Container>
                 <Heading>Услуги и программы</Heading>
 
                 <ul className="services__cardWrapper">
@@ -31,7 +31,7 @@ export default function Services() {
                         </Link>
                     ))}
                 </ul>
-            </FrameSection>
+            </Container>
         </section>
     )
 }

@@ -10,8 +10,10 @@ import BlogPostPage from './Pages/BlogPostPage'
 import ServiceDetailsPage from './Pages/ServiceDetailsPage/ServiceDetailsPage'
 import Mission from './components/Mission/Mission'
 import ForWhom from './components/ForWhom/ForWhom'
+import Phrase from './components/Phrase/Phrase'
 import HowWeWork from './components/HowWeWork/HowWeWork'
 import YourResults from './components/YourResults/YourResults'
+import Results from './components/YourResults/Results/Results'
 import Education from './components/Education/Education'
 // import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
@@ -29,16 +31,20 @@ function App() {
           element={
             <>
               <Hero />
-              <Mission />
               <About />
               <MyPrinciples />
+              <Mission />
               <ForWhom/>
+              <Phrase />
               <HowWeWork />
               <YourResults />
+              <Results />
               <Education />
               {/*<ReviewsSlider/>
               <Services /> 
-              <Blog/>*/}
+              <Blog/>
+              
+              <Results />*/}
             </>
           }
         />

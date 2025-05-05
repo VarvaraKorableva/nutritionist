@@ -1,22 +1,62 @@
-.myPrinciples__wrapper {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.myPrinciples__container {
     padding-bottom: 100px;
+    padding-top: 100px;
     scroll-margin-top: 100px;
+    background-color: #f9fbfc;
+    
+    display: flex;
+    flex-direction: column;
+    
 }
 
+.myPrinciples__wrapper {
+    display: flex;
+    flex-direction: column;
+
+}
 .myPrinciples__principlesContainer {
     padding: 0;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
+    margin-top: 0;
 }
 
 .myPrinciples__principlesCard {
     list-style-type: none;
-    border: 1px solid #1f1f1f;
+    
+    border: 1px solid #e0dddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     border-radius: 30px;
+    /*
+    border: 1px solid rgb(105, 185, 223);
+    
+    */
     padding: 20px;
+    width: 300px;
+    font-size: 24px;
 }
+
+.myPrinciples__principlesCardRow {
+    display: flex;
+}
+
+.myPrinciples__listsImg {
+    background-image: url(../../images/MyPrinciples/lists.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 100px;
+}
+
+.myPrinciples__listsImgDown {
+    transform: rotate(180deg);
+}
+
+.myPrinciples__listsImg90 {
+    transform: rotate(90deg);
+}
+

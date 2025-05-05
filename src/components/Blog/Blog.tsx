@@ -1,7 +1,7 @@
 import './Blog.css'
 import { Link } from 'react-router-dom';
 import Heading from '../UI-Kit/Heading/Heading'
-import FrameSection from '../UI-Kit/Frame/FrameSection'
+import FrameSection from '../UI-Kit/Container/FrameSection'
 import blogs from '../../Data/blogs.json'
 
 export default function Blog() {

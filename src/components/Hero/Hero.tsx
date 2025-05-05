@@ -1,12 +1,13 @@
 import './Hero.css'
 import { FaLinkedin, FaInstagram, FaWhatsapp, FaTelegram, FaGoogle } from 'react-icons/fa'
 import BulletsApproach from '../BulletsApproach/BulletsApproach'
-import FrameDiv from '../UI-Kit/Frame/FrameDiv'
+import Container from '../UI-Kit/Container/Container'
 
 export default function Hero() {
   return (
-    <section className="hero__section">
-      <FrameDiv >
+    <Container as='section' baseClassName='wrapper' className='hero__section'>
+      <Container as='div' baseClassName='wrapper' className='hero__section_blur'>
+      <Container as='div' baseClassName='container'>
         <div className="hero__infoContainer">
             <div className="hero__imgAndIconsContainer">
               <div className="hero__img"></div>
@@ -37,15 +38,18 @@ export default function Hero() {
                     </a>
                   </li>
                 </ul>
-                <a className='hero__formLink'>Записаться на консультацию</a>
+                
             </div>
             <div className="hero__textContainer">
-                <h1 className="hero__title">Health, wellness-коуч, фитнес-тренер, врач и к.м.н.</h1>
-                <h2 className="hero__subtitle">Индивидуальное сопровождение до результата</h2>
+                <h1 className="hero__title">Health, wellness-коуч, фитнес-тренер, <span className="hero__noWrap">врач и к.м.н.</span></h1>
+                <h2 className="hero__subtitle">Индивидуальное сопровождение <span className="hero__noWrap">до результат</span>а</h2>
+                <a className='hero__formLink'>
+                  <p>Записаться на консультацию</p><div className='hero__btnHurt'></div>
+                </a>
             </div>
         </div>
-
-      </FrameDiv>
-    </section>
+        </Container>
+      </Container>
+    </Container>
   )
 }

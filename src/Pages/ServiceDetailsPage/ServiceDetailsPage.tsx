@@ -2,7 +2,7 @@ import './ServiceDetailsPage.css'
 import { useParams, Navigate } from 'react-router-dom';
 import { useEffect } from 'react';
 import Heading from '../../components/UI-Kit/Heading/Heading'
-import FrameSection from '../../components/UI-Kit/Frame/FrameSection'
+import Container from '../../components/UI-Kit/Container/Container'
 import tariffs from '../../Data/tariffs.json'
 
 export default function ServiceDetailsPage() {
@@ -19,7 +19,7 @@ export default function ServiceDetailsPage() {
 
   return (
     <section className="blogPostPage__wrapper">
-      <FrameSection>
+      <Container>
         <Heading>{oneTariff.title}</Heading>
 
         <p className="services__cardText">{oneTariff.description}</p>
@@ -29,7 +29,7 @@ export default function ServiceDetailsPage() {
           </p>
         )}
         
-      </FrameSection>  
+      </Container>  
     </section>  
   )
 }

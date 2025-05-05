@@ -1,5 +1,5 @@
 import './Header.css'
-import FrameDiv from '../UI-Kit/Frame/FrameDiv'
+import Container from '../UI-Kit/Container/Container'
 import { Link } from 'react-router-dom';
 import { FiMenu } from 'react-icons/fi'
 import { useState, useEffect } from 'react';
@@ -14,8 +14,8 @@ export default function Header() {
   }, [])
 
   return (
-    <header className="header">
-    <FrameDiv className="header__container">
+    <Container as='header' baseClassName='wrapper' className="header">
+      <Container as='div' baseClassName='container' className="header__container">
 
       <Link to={`/nutritionist/`} className="header__logoContainer">
         <div className="header__logoImg"></div>
@@ -39,7 +39,7 @@ export default function Header() {
         </a>
       </div>
 
-    </FrameDiv>  
-    </header>
+      </Container>  
+    </Container>
   )
-}//Позвонить
+}

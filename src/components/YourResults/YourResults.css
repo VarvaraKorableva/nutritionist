@@ -1,3 +1,16 @@
-.yourResults__uppercase {
-    text-transform: uppercase;
+
+
+.yourResults__wrapper {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.yourResults__resultsWrapper {
+    display: flex;
+    padding: 0;
+    gap: 50px;
+    font-size: 26px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }

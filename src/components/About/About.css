@@ -1,28 +1,49 @@
 .about__wrapper {
-    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 100px;
+    flex-direction: column;
+    padding-bottom: 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
     scroll-margin-top: 100px;
+
+    position: relative;
+    
 }
+/*
+.greenCloude {
+    position: absolute;
+    top: -100px;
+    left: 0;
+
+    background-image: url(../../images/greenCloude.png);
+    width: 400px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}*/
 
 .about__heroPic {
-    border: 5px solid green;
     border-radius: 8px;
     width: 30%;
-    height: 400px;
+    max-height: 500px;
+    min-height: 400px;
     flex-shrink: 0;
+    background-image: url(../../images/herophoto.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .about__heroPicAndTextContainer {
     display: flex;
     gap: 50px;
-    margin: 50px 0;
+    margin: 0;
 }
 
 .about__heroTextContainer {
-    margin: 0 0 50px 0;
+    margin: 0;
 }
 
 .about__slogan {
@@ -37,9 +58,13 @@
     color: #1f1f1f;
     font-size: 22px;
     margin: 0;
-    margin-bottom: 20px;
+    margin-top: 50px;
     font-weight: 300;
     line-height: 45px;
+}
+
+.about__text:first-of-type {
+    margin-top: 0;
 }
 
 .about__principlesContainer {

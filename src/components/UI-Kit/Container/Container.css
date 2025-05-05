@@ -1,0 +1,29 @@
+.wrapper {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 10px 25px;
+}
+
+@media screen and (max-width: 1300px) {
+    .container {
+        margin: 0 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        margin: 0 15px;
+    }
+}

@@ -1,26 +1,40 @@
 import './ForWhom.css'
 import Heading from '../UI-Kit/Heading/Heading'
-import FrameSection from '../UI-Kit/Frame/FrameSection'
+import Container from '../UI-Kit/Container/Container'
+import Phrase from '../Phrase/Phrase'
 
 export default function ForWhom() {
     return(
-        <FrameSection>
-            <Heading>Для кого</Heading>
-            <ul>
-                <li>Для тех, кто выбирает осознанный подход к своему физическому и ментальному здоровью вместо опасных экспериментов</li>
-                <li>Для разумных людей, не желающих рисковать своим здоровьем и благополучием</li>
-                <li>Для тех, кто устал от циклов “старт-срыв”</li>
-                <li>Для тех, кто хочет понимать свое тело, а не просто следовать инструкциям</li>
-                <li>Для тех, кто ищет персонального навигатора в сфере здоровья и велнеса</li>
+        <Container as='section' baseClassName='wrapper' className="forWhom__wrapper">
+            <Container as='div' baseClassName='container'>
+            <Heading>Кому подойдет работа со мной?</Heading>
+            <div className="forWhom__container">
+            <ul className="forWhom__flowerAndTextWrapper">
+                <li className="forWhom__flowerAndTextContainer">
+                    <div className="forWhom__flower"></div>
+                    <p className="forWhom__text">Тому, кто выбирает осознанный подход к своему физическому и ментальному здоровью вместо опасных экспериментов</p>
+                </li>
+                <li className="forWhom__flowerAndTextContainer">
+                    <div className="forWhom__flower"></div>
+                    <p className="forWhom__text">Разумным людям, не желающим рисковать своим здоровьем и благополучием</p>
+                </li>
+                <li className="forWhom__flowerAndTextContainer">
+                    <div className="forWhom__flower"></div>
+                    <p className="forWhom__text">Тому, кто устал от циклов «старт-срыв»</p>
+                </li>
+                <li className="forWhom__flowerAndTextContainer">
+                    <div className="forWhom__flower"></div>
+                    <p className="forWhom__text">Тому, кто хочет понимать свое тело, а не просто следовать инструкциям</p>
+                </li>
+                <li className="forWhom__flowerAndTextContainer">
+                    <div className="forWhom__flower"></div>
+                    <p className="forWhom__text">Тому, кто ищет персонального навигатора в сфере здоровья и велнеса</p>
+                </li>
             </ul>
 
-            <h3>У меня нет общей программы для всех, Я помогу Вам обрести не только прекрасное самочувствие, но и здоровые отношения со своим телом, где зеркало станет вашим другом</h3>
-            <h3>Учитывая ваши индивидуальные особенности и ваш прошлый опыт</h3>
-            <ul>
-                <li>предпочтения в питании</li>
-                <li>уровень физической активности </li>
-                <li>Занятость и другие жизненные обстоятельства</li>
-            </ul>
-        </FrameSection>
+            <div className="forWhom__forWhomFlower"></div>
+            </div>
+            </Container>
+        </Container>
     )
 }

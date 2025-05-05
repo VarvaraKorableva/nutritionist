@@ -1,12 +1,13 @@
 import './About.css'
 import Heading from '../UI-Kit/Heading/Heading'
-import FrameSection from '../UI-Kit/Frame/FrameSection'
+import Container from '../UI-Kit/Container/Container'
 
 export default function About() {
   return (
-    <section className="about__wrapper" id="about">
-      <FrameSection>
+    <Container as='section' baseClassName='container'>
+        <Container as='div' baseClassName='wrapper' className="about__wrapper">
         <Heading>Обо мне</Heading>
+
         <div className="about__heroPicAndTextContainer">
 
           <div className="about__heroTextContainer">
@@ -26,8 +27,7 @@ export default function About() {
           <div className="about__heroPic"></div>
         </div>
 
-        
-      </FrameSection> 
-    </section>
+        </Container>
+    </Container>
   )
 }

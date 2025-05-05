@@ -1,23 +1,22 @@
 .heading {
-    font-size: 40px;
+    font-size: 50px;
     
     color: #374BA5;
     color: rgb(105, 185, 223);
     margin: 0;
-    margin-top: 100px;
+    margin-bottom: 50px;
     text-align: start;
     align-self: flex-start;
 }
 
 @media screen and (max-width: 1300px) {
     .heading {
-        margin-top: 70px;
+        
     }
 }
 
 @media screen and (max-width: 500px) {
     .heading {
-        margin-top: 50px;
         font-size: 32px;
     }
 }

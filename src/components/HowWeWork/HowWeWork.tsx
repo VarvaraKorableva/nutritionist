@@ -1,10 +1,11 @@
 import './HowWeWork.css'
 import Heading from '../UI-Kit/Heading/Heading'
-import FrameSection from '../UI-Kit/Frame/FrameSection'
+import Container from '../UI-Kit/Container/Container'
 
 export default function HowWeWork() {
     return(
-        <FrameSection>
+        <Container as='section' baseClassName='wrapper' className="HowWeWork__container">
+        <Container as='div' baseClassName='container'>
             <Heading>Как мы работаем</Heading>
             <p>Диагностическая сессия, чтобы определить Ваш запрос и убедиться, что мы подходим друг другу</p>
             {/*Стрелка вниз*/ }
@@ -22,6 +23,7 @@ export default function HowWeWork() {
                     Вы планомерно в спокойном темпе с бережным отношением к себе достигаете ваших целей и учитесь поддерживать их самостоятельно.
                 </li>
             </ul>
-        </FrameSection>
+        </Container>
+        </Container>
     )
 }

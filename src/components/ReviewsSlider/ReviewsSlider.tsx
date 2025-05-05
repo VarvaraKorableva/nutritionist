@@ -1,7 +1,7 @@
 import './ReviewsSlider.css'
 import { useRef } from 'react'
 import Heading from '../UI-Kit/Heading/Heading'
-import FrameSection from '../UI-Kit/Frame/FrameSection'
+import Container from '../UI-Kit/Container/Container'
 
 const reviews = [
   {
@@ -83,7 +83,7 @@ export default function ReviewsSlider() {
   }
 
   return (
-    <FrameSection>
+    <Container>
     <section className="testimonials" id="reviews">
       
         <Heading>Отзывы</Heading>
@@ -116,6 +116,6 @@ export default function ReviewsSlider() {
         </div>
       
     </section>
-    </FrameSection>
+    </Container>
   )
 }
