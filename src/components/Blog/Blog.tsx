@@ -1,14 +1,14 @@
 import './Blog.css'
 import { Link } from 'react-router-dom';
 import Heading from '../UI-Kit/Heading/Heading'
-import FrameSection from '../UI-Kit/Container/FrameSection'
+import Container from '../UI-Kit/Container/Container'
 import blogs from '../../Data/blogs.json'
 
 export default function Blog() {
         
   return (
     <section className="blog__wrapper" id="adviсe">
-      <FrameSection>
+      <Container>
         <Heading>Блог</Heading>
         <ul className="blog__ulWrapper">
             {blogs.map((i) => 
@@ -33,7 +33,7 @@ export default function Blog() {
             )}
         </ul>
         
-      </FrameSection> 
+      </Container> 
     </section>
   )
 }
