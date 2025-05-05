@@ -1,6 +1,5 @@
 import './Hero.css'
 import { FaLinkedin, FaInstagram, FaWhatsapp, FaTelegram, FaGoogle } from 'react-icons/fa'
-import BulletsApproach from '../BulletsApproach/BulletsApproach'
 import Container from '../UI-Kit/Container/Container'
 
 export default function Hero() {

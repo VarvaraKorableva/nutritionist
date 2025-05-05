@@ -1,7 +1,6 @@
 import './ForWhom.css'
 import Heading from '../UI-Kit/Heading/Heading'
 import Container from '../UI-Kit/Container/Container'
-import Phrase from '../Phrase/Phrase'
 
 export default function ForWhom() {
     return(
