@@ -46,7 +46,7 @@ export default function Hero() {
                 {/*<p>вместе со мной</p>*/}
                 <h2 className="hero__subtitle">Индивидуальное сопровождение <span className="hero__noWrap">до результата</span></h2>
                 <a className='hero__formLink'>
-                  <p>Записаться на консультацию</p><div className='hero__btnHurt'></div>
+                  <p className='hero__btnText'>Записаться на консультацию</p><div className='hero__btnHurt'></div>
                 </a>
             </div>
         </div>
