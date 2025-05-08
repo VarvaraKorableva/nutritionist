@@ -23,3 +23,9 @@
     margin-bottom: 100px;
     
 }
+
+@media screen and (max-width: 750px) {
+    .Phrase__subtitleContainer {
+        flex-direction: column;
+    }
+}

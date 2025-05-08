@@ -1,8 +1,9 @@
 .heading {
     font-size: 50px;
     
-    color: #374BA5;
+    
     color: rgb(105, 185, 223);
+    color: #374BA5;
     margin: 0;
     margin-bottom: 50px;
     text-align: start;

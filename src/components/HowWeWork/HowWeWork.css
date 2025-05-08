@@ -1,5 +1,12 @@
 .HowWeWork__container {
     background-color: #f9fbfc;
+    background-image: url(../../images/forwhom/11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.HowWeWork__textContailer {
+    max-width: 1000px;
 }

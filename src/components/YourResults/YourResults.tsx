@@ -8,7 +8,7 @@ export default function YourResults() {
         <Container as='section' baseClassName='wrapper' className="yourResults__wrapper">
             <Container as='div' baseClassName='container' >
             <Heading>Ваши результаты</Heading>
-            <ul className="yourResults__resultsWrapper">
+            <ul>
                 <li>Новые привычки</li>
                 <li>Новые навыки</li>
                 <li>Новое Состояние</li>

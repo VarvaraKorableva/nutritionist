@@ -37,8 +37,8 @@ function App() {
               <ForWhom/>
               <Phrase />
               <HowWeWork />
-              <YourResults />
               <Results />
+              <YourResults />
               <Education />
               {/*<ReviewsSlider/>
               <Services /> 

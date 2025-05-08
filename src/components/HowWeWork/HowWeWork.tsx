@@ -7,9 +7,9 @@ export default function HowWeWork() {
         <Container as='section' baseClassName='wrapper' className="HowWeWork__container">
         <Container as='div' baseClassName='container'>
             <Heading>Как мы работаем</Heading>
-            <p>Диагностическая сессия, чтобы определить Ваш запрос и убедиться, что мы подходим друг другу</p>
+            <p className="HowWeWork__textContailer">Диагностическая сессия, чтобы определить Ваш запрос и убедиться, что мы подходим друг другу</p>
             {/*Стрелка вниз*/ }
-            <ul>
+            <ul className="HowWeWork__textContailer">
                 <li>
                     Зона компетенций хэлс и велнес коуча 
                 </li>

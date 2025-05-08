@@ -1,28 +1,21 @@
 .hero__section {
-    /*background-image: url(../../images/bgseaandtree.png);*/
-    background-image: url(../../images/footerpic.jpg);
-    
+    background-image: url(../../images/bg/31.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
     min-width: 100%;
-    height: fit-content;
+    min-height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
-    
     padding: 0;
-    box-sizing: border-box;
     margin: 0;
+    box-sizing: border-box;
 }
 
-.hero__section_blur {
-    backdrop-filter: blur(8px);
-    background-color: rgba(255, 255, 255, 0.1);
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 50px 0;
-    
+.hero__container {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .hero__imgAndIconsContainer {
@@ -31,6 +24,7 @@
     gap: 20px;
     justify-content: center;
     align-items: center;
+    
 }
 
 .hero__infoContainer {
@@ -41,13 +35,12 @@
 
 .hero__img {
     border-radius: 50%;
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     background-image: url(../../images/herophoto.jpg);
     background-position: start;
     background-size: cover;
     background-repeat: no-repeat;
-    
 }
 
 .hero__textContainer {
@@ -68,8 +61,8 @@
 }
 
 .hero__formLink {
-    padding: 10px 20px;
-    border-radius: 30px;
+    padding: 0 25px;
+    border-radius: 40px;
     
     background-color: rgb(105, 185, 223);
     cursor: pointer;
@@ -87,16 +80,21 @@
 }
 
 .hero__title {
-    color: #1f1f1f;
-    font-size: 66px;
+    color: #f1f1f1;
+    font-size: 85px;
     font-weight: 500;
-    line-height: 85px;
+    line-height: 90px;
     margin: 0;
-/*
-    background-image: url(../../images/undertext.png);
-    background-position: center;
+    text-align: end;
+}
+
+.hero__titleContainer {
+   /*background-image: url(../../images/undertext.png);
+    background-position: start;
     background-repeat: no-repeat;
-    background-size: contain; */
+    background-size: contain;
+    width: 1000px;
+    min-height: 300px;*/
 }
 
 .hero__noWrap {
@@ -105,16 +103,15 @@
 
 .hero__subtitle {
     color: #1f1f1f;
+    color: #f1f1f1;
     margin: 0;
     font-size: 32px;
     text-transform: uppercase;
-
+    font-weight: 300;
     /*background-image: url(../../images/undertext.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;*/
-
-    
 }
 
 .hero__contact-container {
@@ -123,6 +120,7 @@
     justify-content: space-between;
     margin: 0;
     padding: 0;
+
 }
 
 .hero__contact-item {
@@ -146,14 +144,14 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1200px) {
     .hero__section {
-        padding: 50px 0;
+        /*padding: 50px 0;*/
     }
 
-    .hero__title {
+   .hero__title {
         font-size: 62px;
-        margin-bottom: 100px;
+        line-height: 60px;
     }
 
     .hero__subtitle {
@@ -161,9 +159,7 @@
         font-weight: 400;
     }
 
-    .hero__textContainer {
-        align-self: flex-start;
-    }
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -178,12 +174,18 @@
     }
 
     .hero__infoContainer {
-        gap: 50px;
+        gap: 30px;
     }
 
     .hero__img {
         width: 400px;
         height: 400px;
+    }
+
+    .hero__formLink {
+        padding: 0 20px;
+        border-radius: 40px;
+        font-size: 22px;
     }
 }
 

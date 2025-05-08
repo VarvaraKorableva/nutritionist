@@ -25,3 +25,9 @@
     background-repeat: no-repeat;
     background-size: contain;*/
 }
+
+@media screen and (max-width: 750px) {
+    .mission__wrapper {
+        flex-direction: column;
+    }
+}
