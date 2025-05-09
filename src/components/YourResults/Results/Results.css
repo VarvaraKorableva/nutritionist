@@ -7,6 +7,8 @@
 .results__uppercase {
     text-transform: uppercase;
     margin: 0;
+    text-align: center;
+    line-height: 60px;
 }
 
 .results__container {
@@ -44,9 +46,14 @@
 .results__text {
     margin: 0;
 
-    border: 1px solid blueviolet;
+    
     border-radius: 40px;
-    padding: 10px 10px;
+    padding: 40px 10px;
+
+    background-image: url(../../../images/undertext1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 @media screen and (max-width: 1300px) {

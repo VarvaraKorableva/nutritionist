@@ -1,13 +1,12 @@
 import './Footer.css'
 import { FaLinkedin, FaInstagram, FaWhatsapp, FaTelegram, FaGoogle } from 'react-icons/fa'
-//import FrameDiv from '../UI-Kit/Frame/FrameDiv'
+import Container from '../UI-Kit/Container/Container'
 
 export default function Footer() {
   return (
-    <footer className="footer__section" id="contact">
-      <div className="footer__blurContainer">
-      
-              
+    
+    <Container as='footer' baseClassName='wrapper' className="footer__section">
+    <Container as='div' baseClassName='container'> 
         <ul className='footer__contact-container'>
                   <li className='hero__contact-item'>
                     <a className='hero__contact-item-link' href='mailto:varvarakorablevawork@gmail.com' target='_blank'>
@@ -35,7 +34,7 @@ export default function Footer() {
                     </a>
                   </li>
             </ul>
-      </div>
-    </footer>
+            </Container> 
+            </Container> 
   )
 }

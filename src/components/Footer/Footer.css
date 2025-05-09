@@ -24,4 +24,5 @@
 .footer__contact-container {
     max-width: 500px;
     display: flex;
+    padding: 0;
 }

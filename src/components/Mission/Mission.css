@@ -1,6 +1,9 @@
 .mission__wrapper {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 50px;
+    
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -24,6 +27,17 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;*/
+}
+
+@media screen and (max-width: 1200px) {
+    .mission__text {
+        font-size: 32px;
+        max-width: 650px;
+    }    
+
+    .mission__wrapper {
+        gap: 30px;
+    }
 }
 
 @media screen and (max-width: 750px) {

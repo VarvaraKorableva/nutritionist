@@ -30,3 +30,9 @@
 .myPrinciples__pic {
     height: 300px;
 }
+
+@media screen and (max-width: 900px) {
+    .myPrinciples__container {
+        background-image: url(../../images/bg/28small.png);
+    }    
+}

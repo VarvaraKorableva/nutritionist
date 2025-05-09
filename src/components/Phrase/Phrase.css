@@ -24,6 +24,18 @@
     
 }
 
+@media screen and (max-width: 1200px) {
+    .Phrase__subtitle {
+        font-size: 32px;
+        line-height: 50px;
+        max-width: 650px;
+    }    
+
+    .Phrase__subtitleContainer {
+        gap: 30px;
+    }
+}
+
 @media screen and (max-width: 750px) {
     .Phrase__subtitleContainer {
         flex-direction: column;
