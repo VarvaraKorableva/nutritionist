@@ -24,6 +24,13 @@
     
 }
 
+@media screen and (max-width: 1300px) {
+    .Phrase__subtitleContainer {
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .Phrase__subtitle {
         font-size: 32px;
@@ -39,5 +46,12 @@
 @media screen and (max-width: 750px) {
     .Phrase__subtitleContainer {
         flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .Phrase__subtitleContainer {
+        margin-bottom: 70px;
     }
 }

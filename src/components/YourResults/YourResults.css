@@ -16,3 +16,15 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width: 1300px) {
+    .yourResults__wrapper {
+        padding: 70px 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .yourResults__wrapper {
+        padding-top: 50px;
+    }
+}

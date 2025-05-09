@@ -1,7 +1,5 @@
 .heading {
     font-size: 50px;
-    
-    
     color: rgb(105, 185, 223);
     color: #374BA5;
     margin: 0;
@@ -19,6 +17,12 @@
 @media screen and (max-width: 500px) {
     .heading {
         font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .heading {
+        margin-bottom: 25px;
     }
 }
 

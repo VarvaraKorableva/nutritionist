@@ -13,3 +13,16 @@
 .forWhom__textContainer {
     max-width: 1000px;
 }
+
+@media screen and (max-width: 1300px) {
+    .forWhom__wrapper {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .forWhom__wrapper {
+        padding-top: 50px;
+    }
+}

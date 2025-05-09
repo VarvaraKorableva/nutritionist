@@ -10,3 +10,15 @@
 .HowWeWork__textContailer {
     max-width: 1000px;
 }
+@media screen and (max-width: 1300px) {
+    .HowWeWork__container {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .HowWeWork__container {
+        padding-top: 50px;
+    }
+}

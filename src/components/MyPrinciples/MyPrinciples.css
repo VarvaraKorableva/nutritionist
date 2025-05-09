@@ -31,8 +31,60 @@
     height: 300px;
 }
 
+@media screen and (max-width: 1300px) {
+    .myPrinciples__container_blur {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .myPrinciples__container {
+        scroll-margin-top: 70px;
+    }
+}    
+
 @media screen and (max-width: 900px) {
     .myPrinciples__container {
         background-image: url(../../images/bg/28small.png);
-    }    
+    }   
+    
+    .myPrinciples__pic {
+        height: 500px;
+        width: 500px;
+        
+        background-image: url(../../images/healhyFoodPics/9.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .myPrinciples__pic {
+        height: 400px;
+        width: 400px;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .myPrinciples__container_blur {
+        padding-top: 50px;
+    }
+
+    .myPrinciples__container {
+        scroll-margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .myPrinciples__pic {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .myPrinciples__pic {
+        height: 250px;
+        width: 250px;
+    }
 }

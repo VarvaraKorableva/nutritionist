@@ -29,6 +29,13 @@
     background-size: contain;*/
 }
 
+@media screen and (max-width: 1300px) {
+    .mission__wrapper {
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .mission__text {
         font-size: 32px;
@@ -37,6 +44,12 @@
 
     .mission__wrapper {
         gap: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .mission__wrapper {
+        margin-top: 50px;
     }
 }
 

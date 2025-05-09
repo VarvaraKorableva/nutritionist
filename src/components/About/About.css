@@ -74,7 +74,7 @@
 .about__linkToPage {
     border: 3px solid rgb(105, 185, 223);
     border-radius: 40px;
-    width: 30%;
+    padding: 0 40px;
     height: 50px;
     text-decoration: none;
     display: flex;
@@ -93,7 +93,10 @@
 @media screen and (max-width: 1300px) {
     .about__wrapper {
         scroll-margin-top: 70px;
-        padding-bottom: 70px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        padding-bottom: 0;
+        scroll-margin-top: 70px;
     }
 
     .about__heroTextContainer {
@@ -120,12 +123,22 @@
 
     .about__wrapper {
         scroll-margin-top: 50px;
-        padding-bottom: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding-bottom: 0;
     }
 
     .about__heroTextContainer {
         margin: 0 0 0 0;
     }
+}
+
+@media screen and (max-width: 400px) {
+    .about__wrapper {
+        scroll-margin-top: 25px;
+        margin-top: 25px;
+    }
+
 }
 
 

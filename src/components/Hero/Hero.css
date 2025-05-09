@@ -194,6 +194,12 @@
 }
 
 @media screen and (max-width: 900px) {
+
+    .hero__section {
+        background-image: url(../../images/bg/31bgsmall.png);
+        background-position: end;
+    }
+
     .hero__infoContainer {
         flex-direction: column;
         gap: 20px;
@@ -203,7 +209,8 @@
         text-align: center;
         align-items: center;
         max-width: 80%;
-        margin-bottom: 50px;
+        margin: auto;
+        margin-bottom: 20px;
     }
 
     .hero__subtitle {
@@ -215,17 +222,6 @@
         align-self: center;
         align-items: center;
         gap: 20px;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .hero__section {
-        background-image: url(../../images/bg/31bgsmall.png);
-        
-    }
-    .hero__title {
-        margin: 0;
-        text-align: center;
     }
 }
 
@@ -246,7 +242,7 @@
     }
 
     .hero__section {
-        padding: 30px 0;
+        padding: 0;
     }
 
     .hero__btnHurt {
