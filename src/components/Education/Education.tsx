@@ -6,7 +6,7 @@ import Container from '../UI-Kit/Container/Container'
 export default function Education() {
     return(
         <Container as='section' baseClassName='wrapper'>
-            <Container as='div' baseClassName='container'>
+            <Container as='div' baseClassName='container' className="education__container">
                 <Heading>Мое образование</Heading>
                 <ul>
                     <li></li>

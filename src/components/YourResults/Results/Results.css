@@ -64,7 +64,17 @@
     }
 }
 
+@media screen and (max-width: 1000px) {
+    .results__text {
+        font-size: 30px;
+    }    
+}
+
 @media screen and (max-width: 500px) {
+    .results__text {
+        font-size: 26px;
+    }
+
     .results__wrapper {
         padding-top: 50px;
     }

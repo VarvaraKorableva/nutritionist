@@ -17,6 +17,12 @@
     }
 }
 
+@media screen and (max-width: 900px) {
+    .HowWeWork__container {
+        background-image: url(../../images/forwhom/11small.png);
+    }
+}
+
 @media screen and (max-width: 500px) {
     .HowWeWork__container {
         padding-top: 50px;

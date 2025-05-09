@@ -10,8 +10,8 @@ export default function YourResults() {
             <Heading>Ваши результаты</Heading>
             <div className="yourResults__container">
                 <ul>
-                    <li>Новые привычки</li>
-                    <li>Новые навыки</li>
+                    <li>Новые Привычки</li>
+                    <li>Новые Навыки</li>
                     <li>Новое Состояние</li>
                     <li>Новый Образ жизни</li>
                     <li>Новое Мышление</li>

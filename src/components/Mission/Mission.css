@@ -22,6 +22,7 @@
     line-height: 50px;
     max-width: 800px;
     text-align: end;
+    margin: 0;
 /*
     background-image: url(../../images/forWhom.png);
     background-position: center;
@@ -47,10 +48,10 @@
     }
 }
 
-@media screen and (max-width: 500px) {
-    .mission__wrapper {
-        margin-top: 50px;
-    }
+@media screen and (max-width: 1000px) {
+    .mission__text {
+        font-size: 30px;
+    }    
 }
 
 @media screen and (max-width: 750px) {
@@ -58,3 +59,10 @@
         flex-direction: column;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .mission__text {
+        font-size: 26px;
+    }
+}
+

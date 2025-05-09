@@ -3,6 +3,7 @@
     line-height: 50px;
     max-width: 800px;
     text-align: start;
+    margin-bottom: 0;
 }
 
 .Phrase__subtitlePic {
@@ -43,6 +44,12 @@
     }
 }
 
+@media screen and (max-width: 1000px) {
+    .Phrase__subtitle {
+        font-size: 30px;
+    }    
+}
+
 @media screen and (max-width: 750px) {
     .Phrase__subtitleContainer {
         flex-direction: column;
@@ -53,5 +60,9 @@
 @media screen and (max-width: 500px) {
     .Phrase__subtitleContainer {
         margin-bottom: 70px;
+    }
+
+    .Phrase__subtitle {
+        font-size: 26px;
     }
 }
