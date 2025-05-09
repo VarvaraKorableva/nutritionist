@@ -17,14 +17,67 @@
     flex-wrap: wrap;
 }
 
+.yourResults__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.yourResults__pic {
+    height: 500px;
+    width: 500px;
+    
+    background-image: url(../../images/healhyFoodPics/9.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 @media screen and (max-width: 1300px) {
     .yourResults__wrapper {
         padding: 70px 0;
     }
 }
 
+@media screen and (max-width: 850px) {
+    .yourResults__pic {
+        height: 400px;
+        width: 400px;
+    }    
+}
+
+@media screen and (max-width: 650px) {
+    .yourResults__container {
+        flex-direction: column;
+    }
+    .yourResults__pic {
+        height: 500px;
+        width: 500px;
+        align-self: center;
+    }  
+}
+
+@media screen and (max-width: 550px) {
+    .yourResults__pic {
+        height: 400px;
+        width: 400px;
+    }  
+}
+
 @media screen and (max-width: 500px) {
     .yourResults__wrapper {
         padding-top: 50px;
     }
+}
+
+@media screen and (max-width: 450px) {
+    .yourResults__pic {
+        height: 300px;
+        width: 300px;
+    }  
+}
+
+@media screen and (max-width: 320px) {
+    .yourResults__pic {
+        height: 290px;
+        width: 290px;
+    }  
 }
