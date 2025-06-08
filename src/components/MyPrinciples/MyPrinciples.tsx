@@ -2,6 +2,7 @@
 import './MyPrinciples.css'
 import Heading from '../UI-Kit/Heading/Heading'
 import Container from '../UI-Kit/Container/Container'
+import { FaFlask, FaBalanceScale, FaUserCheck, FaHandshake, FaHeart, FaLightbulb } from 'react-icons/fa'
 
 export default function MyPrinciples() {
     return(
@@ -10,24 +11,69 @@ export default function MyPrinciples() {
         <Container as='div' baseClassName='container' className="myPrinciples__wrapper">
             <Heading>Мои принципы в работе</Heading>
             <ul className="myPrinciples__ulContainer">
-                <li>
-                    <p className="myPrinciples__text">Доказательный подход и следование принципам доказательной медицины: опора на качественные научные рекомендации и исследования</p>
-                </li>
-                <li>
-                    <p className="myPrinciples__text">Строгое соблюдение границ компетенций и этического кодекса</p>
-                </li>
-                <li>
-                    <p className="myPrinciples__text">Клиентоцентрированный индивидуальный подход, то есть интересы, цели, опыт и качества клиента - это главный мой приоритет</p>
-                </li>
-                <li>
-                    <p className="myPrinciples__text">Партнерские отношения с клиентом, основанные на уважении и доверии</p>
-                </li>
-                <li>
-                    <p className="myPrinciples__text">Фокус на личности клиента и его заботе о себе, а не результат любой ценой</p>
-                </li>
-            </ul>
 
-            <div className="myPrinciples__pic"></div>
+<li className="myPrinciples__liContainer">
+    <div className="myPrinciples__faviconAndTitleContainer">
+        <FaBalanceScale className="myPrinciples__favicon" />
+        <h3 className="sub_sub_title">Профессиональные границы и этика</h3>
+    </div>
+    <p className="myPrinciples__text">
+        Чёткое соблюдение границ профессиональной компетенции и этических норм в каждой ситуации.
+    </p>
+</li>
+
+<li className="myPrinciples__liContainer">
+    <div className="myPrinciples__faviconAndTitleContainer">
+        <FaHandshake className="myPrinciples__favicon" />
+        <h3 className="sub_sub_title">Партнёрство и доверие</h3>
+    </div>
+    <p className="myPrinciples__text">
+        Работа в формате диалога и взаимного уважения, где клиенту можно доверять и быть собой.
+    </p>
+</li>
+
+<li className="myPrinciples__liContainer">
+    <div className="myPrinciples__faviconAndTitleContainer">
+        <FaHeart className="myPrinciples__favicon" />
+        <h3 className="sub_sub_title">Фокус на заботу о себе</h3>
+    </div>
+    <p className="myPrinciples__text">
+        Забота о благополучии клиента как главная ценность — без давления и ожидания быстрых результатов.
+    </p>
+</li>
+
+<li className="myPrinciples__liContainer">
+    <div className="myPrinciples__faviconAndTitleContainer">
+        <FaFlask className="myPrinciples__favicon" />
+        <h3 className="sub_sub_title">Доказательность и наука</h3>
+    </div>
+    <p className="myPrinciples__text">
+        Подход, основанный на актуальных научных данных и рекомендациях доказательной медицины.
+    </p>
+</li>
+
+<li className="myPrinciples__liContainer">
+    <div className="myPrinciples__faviconAndTitleContainer">
+        <FaUserCheck className="myPrinciples__favicon" />
+        <h3 className="sub_sub_title">Индивидуальный подход</h3>
+    </div>
+    <p className="myPrinciples__text">
+        Уважение к уникальности каждого клиента: его целям, опыту, личным качествам и темпу движения.
+    </p>
+</li>
+
+<li className="myPrinciples__liContainer">
+    <div className="myPrinciples__faviconAndTitleContainer">
+        <FaLightbulb className="myPrinciples__favicon" />
+        <h3 className="sub_sub_title">Развитие и осознанность</h3>
+    </div>
+    <p className="myPrinciples__text">
+        Помощь в раскрытии потенциала, развитии осознанности и формировании устойчивых изменений в жизни.
+    </p>
+</li>
+
+</ul>
+
         </Container>
         </Container>
         </Container>

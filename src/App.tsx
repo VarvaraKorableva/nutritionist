@@ -34,8 +34,8 @@ function App() {
           element={
             <>
               <Hero />
-              <About />
               <MyPrinciples />
+              <About />
               <Mission />
               <ForWhom/>
               <Phrase />

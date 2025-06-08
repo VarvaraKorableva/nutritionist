@@ -1,6 +1,6 @@
 .header {
     backdrop-filter: blur(8px);
-    /*background-color: rgba(255, 255, 255, 0.5);*/
+    background-color: #e8e4db;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     position: sticky;
     top: 0;
@@ -52,28 +52,21 @@
 .header__nav a {
     margin: 0 1rem;
     text-decoration: none;
-    color: #333;
-    font-weight: 500;
+    color: rgba(0,0,0,0.6);;
+    font-weight: 400;
     font-size: 20px;
 }
   
 .header__nav a:hover {
-    color: #4e7141;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
-    padding: 10px 15px;
-    /*display: flex;
-    justify-content: center;
-    align-items: center;*/
-    border-radius: 30px;
+    color: #ad9f76;
     transition: all 0.3s ease;
-    background-color: #fff;
-}    
+}   
+
 .header__burgerIcon {
     font-weight: 60px;
-    border: 2px solid #89a974;
-    color: #4e7141;
+    border: 2px solid #ad9f76;
+    color: #ad9f76;
     padding: 10px;
-    border-radius: 50%;
     text-decoration: none;
     font-weight: 500;
     height: 35px;
@@ -86,17 +79,14 @@
 
 .header__burgerIcon:hover {
     color: #fff;
-    background: #a2e8dc;
-    background: #bbe6c8;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    background: #ad9f76;
     transition: all 0.3s ease;
 }
 .header__cta {
-    border: 3px solid #89a974;
-    color: #4e7141;
+    border: 2px solid #ad9f76;
+    color: #ad9f76;
     padding: 0.6rem 1.2rem;
     padding: 10px;
-    border-radius: 50%;
     text-decoration: none;
     font-weight: 500;
     height: 35px;
@@ -108,9 +98,7 @@
   
 .header__cta:hover {
     color: #fff;
-    background: #a2e8dc;
-    background: #bbe6c8;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    background: #ad9f76;
     transition: all 0.3s ease;
 }
 
@@ -129,7 +117,6 @@
     } 
 
     .header__cta {
-        border: 2px solid #89a974;
         font-weight: 400;
     }
 

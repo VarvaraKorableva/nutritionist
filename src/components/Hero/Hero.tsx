@@ -5,12 +5,13 @@ import Container from '../UI-Kit/Container/Container'
 export default function Hero() {
   return (
     <Container as='section' baseClassName='wrapper' className='hero__section'>
+      <Container as='div' baseClassName='wrapper' className='hero__wrapper'>
       <Container as='div' baseClassName='container' className='hero__container'>
       
         <div className="hero__infoContainer">
             <div className="hero__imgAndIconsContainer">
-              <div className="hero__img"></div>
-              {/*<p>Кандидат медицинских наук | Wellness-коуч | Фитнес-тренер</p>*/}
+              {/*<div className="hero__img"></div>
+              <p>Кандидат медицинских наук | Wellness-коуч | Фитнес-тренер</p>
               <ul className='hero__contact-container'>
                   <li className='hero__contact-item'>
                     <a className='hero__contact-item-link' href='mailto:varvarakorablevawork@gmail.com' target='_blank'>
@@ -37,7 +38,7 @@ export default function Hero() {
                       <FaTelegram />
                     </a>
                   </li>
-                </ul>
+              </ul>*/}
             </div>
             <div className="hero__textContainer">
               <div className="hero__titleContainer">
@@ -46,11 +47,12 @@ export default function Hero() {
                 {/*<p>вместе со мной</p>*/}
                 <h2 className="hero__subtitle">Индивидуальное сопровождение <span className="hero__noWrap">до результата</span></h2>
                 <a className='hero__formLink'>
-                  <p className='hero__btnText'>Записаться на консультацию</p><div className='hero__btnHurt'></div>
+                  <p className='hero__btnText'>Записаться на консультацию</p>
                 </a>
             </div>
         </div>
         
+      </Container>
       </Container>
     </Container>
   )

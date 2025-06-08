@@ -1,10 +1,19 @@
 
 
 .yourResults__wrapper {
-    padding: 100px 0;
-    background-color: #f9fbfc;
-    background-image: url(../../images/forwhom/12.png);
+    background-image: url(../../images/forwhom/15.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.yourResults__color {
+    background: linear-gradient(
+        135deg,
+        rgba(18, 59, 36, 0.85) 0%,
+        rgba(18, 59, 36, 0.65) 100%
+    );
+
+    padding: 100px 0;  
 }
 
 .yourResults__resultsWrapper {
@@ -20,28 +29,13 @@
 .yourResults__container {
     display: flex;
     justify-content: space-between;
-}
-
-.yourResults__pic {
-    height: 500px;
-    width: 500px;
-    
-    background-image: url(../../images/healhyFoodPics/9.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+    color: #e8e4db;
 }
 
 @media screen and (max-width: 1300px) {
     .yourResults__wrapper {
         padding: 70px 0;
     }
-}
-
-@media screen and (max-width: 850px) {
-    .yourResults__pic {
-        height: 400px;
-        width: 400px;
-    }    
 }
 
 @media screen and (max-width: 650px) {
@@ -52,13 +46,6 @@
         height: 500px;
         width: 500px;
         align-self: center;
-    }  
-}
-
-@media screen and (max-width: 550px) {
-    .yourResults__pic {
-        height: 400px;
-        width: 400px;
     }  
 }
 
