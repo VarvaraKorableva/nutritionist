@@ -20,8 +20,6 @@ export default function AboutMePage() {
 
         <AboutMePageTitle/>
         <AboutMeInfo/>
-
-        <Container/>
         <ForWhom/>
 
         
