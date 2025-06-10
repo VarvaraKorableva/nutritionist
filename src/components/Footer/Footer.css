@@ -49,6 +49,7 @@
     color: #e8e4db;
     margin: 0;
     list-style-type: none;
+    text-decoration: none;
 }
 
 .footer__li:hover {

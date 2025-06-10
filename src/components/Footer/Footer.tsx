@@ -1,6 +1,7 @@
 import './Footer.css'
 import { FaLinkedin, FaInstagram, FaWhatsapp, FaTelegram, FaGoogle } from 'react-icons/fa'
 import Container from '../UI-Kit/Container/Container'
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -36,14 +37,14 @@ export default function Footer() {
                   </li>
         </ul>
 
-        <ul className='footer__contactWrapper'>
+        <div className='footer__contactWrapper'>
 
-          <li className='footer__li'>Обо мне</li>
-          <li className='footer__li'>Услуги</li>
-          <li className='footer__li'>Отзывы</li>
-          <li className='footer__li'>Контакты</li>
+          <Link to={'/about-me'} className='footer__li'>Обо мне</Link>
+          <Link to={'/services'} className='footer__li'>Услуги</Link>
+          <div className='footer__li'>Отзывы</div>
+          <div className='footer__li'>Контакты</div>
 
-        </ul>
+        </div>
       </Container> 
       </Container> 
     </Container> 

@@ -1,5 +1,5 @@
 import './Container.css'
-import { ReactNode, ElementType } from 'react'
+import { ReactNode, ElementType, forwardRef } from 'react'
 
 type ContainerProps = {
   children: ReactNode
@@ -8,11 +8,16 @@ type ContainerProps = {
   baseClassName?: 'container' | 'wrapper'
 }
 
-export default function Container({
-  children,
-  className = '',
-  as: Tag = 'section',
-  baseClassName = 'container',
-}: ContainerProps) {
-  return <Tag className={`${baseClassName} ${className}`}>{children}</Tag>
-}
+// Используем forwardRef, чтобы можно было пробросить ref
+const Container = forwardRef<HTMLElement, ContainerProps>(function Container(
+  { children, className = '', as: Tag = 'section', baseClassName = 'container' },
+  ref
+) {
+  return (
+    <Tag ref={ref} className={`${baseClassName} ${className}`}>
+      {children}
+    </Tag>
+  )
+})
+
+export default Container

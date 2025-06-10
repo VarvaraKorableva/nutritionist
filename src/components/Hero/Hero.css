@@ -15,6 +15,7 @@
     box-sizing: border-box;
 }
 
+
 .hero__wrapper {
     background: linear-gradient(
         135deg,
@@ -248,8 +249,8 @@
     }
 
     .hero__wrapper {
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
 }
@@ -258,6 +259,7 @@
     .hero__formLink {
         padding: 10px 10px;
         font-size: 16px;
+        margin-top: 30px;
     }
     .header__logoName {
         max-width: 120px;
@@ -274,11 +276,15 @@
     }
 
     .hero__title {
-        font-size: 38px;
+        font-size: 30px;
+        line-height: 40px;
         margin-bottom: 20px;
+        margin: 0;
     } 
     .hero__subtitle {
         margin-bottom: 0;
+        line-height: 34px;
+        font-size: 20px;
     }
 
     .hero__img {
@@ -286,8 +292,29 @@
         height: 300px;
     }
 
-    .hero__wrapper {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
 }
+
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .hero__title {
+    /* уже есть стили */
+    animation: fadeInUp 0.8s ease forwards;
+    animation-delay: 0.3s;
+    opacity: 0;
+  }
+  
+  .hero__subtitle {
+    animation: fadeInUp 0.8s ease forwards;
+    animation-delay: 1s;
+    opacity: 0;
+  }
