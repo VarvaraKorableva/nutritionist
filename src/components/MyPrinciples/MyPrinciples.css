@@ -46,12 +46,16 @@
     color: #2b2b2b;
 
     flex-shrink: 0;
+    font-weight: 300;
 }
 
 .myPrinciples__text {
     margin: 0;
-    font-size: 18px;
     line-height: 30px;
+}
+
+.sub_sub_title {
+    font-weight: 400;
 }
 
 @media screen and (max-width: 1300px) {
@@ -76,11 +80,19 @@
     .myPrinciples__ulContainer {
         grid-template-columns: repeat(1, 1fr);
         gap: 50px;
+        justify-content: center;
+        align-items: center;
     }
 
     .myPrinciples__text {
-        align-self: flex-start;
+        align-self: center;
+        text-align: center;
     } 
+
+    .myPrinciples__faviconAndTitleContainer {
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 500px) {

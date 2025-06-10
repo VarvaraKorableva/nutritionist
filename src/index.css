@@ -11,8 +11,25 @@ body {
   color: #2b2b2b;
 }
 
+.sub_sub_title {
+  font-size: 20px;
+  line-height: normal;
+  color: #ad9f76;
+  color: #2b2b2b;
+  margin: 0;
+}  
+
+.text {
+  font-size: 20px;
+  font-weight: 300;
+}
+
 @media screen and (max-width: 1000px) {
   body {
+    font-size: 18px;
+  }
+
+  .text {
     font-size: 18px;
   }
 }
@@ -21,12 +38,7 @@ body {
   body {
     font-size: 16px;
   }
+  .text {
+    font-size: 16px;
+  }
 }
-
-.sub_sub_title {
-  font-size: 20px;
-  line-height: normal;
-  color: #ad9f76;
-  color: #2b2b2b;
-  margin: 0;
-}  

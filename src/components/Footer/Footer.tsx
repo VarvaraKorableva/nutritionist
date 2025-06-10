@@ -6,7 +6,8 @@ export default function Footer() {
   return (
     
     <Container as='footer' baseClassName='wrapper' className="footer__section">
-    <Container as='div' baseClassName='container'> 
+      <Container as='div' baseClassName='wrapper' className="footer__wrapper"> 
+      <Container as='div' baseClassName='container' className="footer__container"> 
         <ul className='footer__contact-container'>
                   <li className='hero__contact-item'>
                     <a className='hero__contact-item-link' href='mailto:varvarakorablevawork@gmail.com' target='_blank'>
@@ -33,8 +34,18 @@ export default function Footer() {
                       <FaTelegram />
                     </a>
                   </li>
-            </ul>
-            </Container> 
-            </Container> 
+        </ul>
+
+        <ul className='footer__contactWrapper'>
+
+          <li className='footer__li'>Обо мне</li>
+          <li className='footer__li'>Услуги</li>
+          <li className='footer__li'>Отзывы</li>
+          <li className='footer__li'>Контакты</li>
+
+        </ul>
+      </Container> 
+      </Container> 
+    </Container> 
   )
 }

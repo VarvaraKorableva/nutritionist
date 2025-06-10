@@ -1,14 +1,25 @@
+import { useEffect } from 'react'
 import './AboutMePage.css'
 import Heading from '../../components/UI-Kit/Heading/Heading'
 import Container from '../../components/UI-Kit/Container/Container'
+import ForWhom from '../../components/ForWhom/ForWhom'
+import AboutMePageTitle from '../../components/About/AboutMePage/AboutMePageTitle/AboutMePageTitle'
+import Phrase from '../../components/Phrase/Phrase'
 /*import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';*/
 
 export default function AboutMePage() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
-    <Container as='section' baseClassName='wrapper'>
+    <Container as='section' baseClassName='wrapper' className="AboutMePage__section">
+
+        <AboutMePageTitle/>
         <Container as='div' baseClassName='container' className="AboutMePage__wrapper">
-        <Heading>Обо мне</Heading>
+
 
         <div className="AboutMePage__heroPicAndTextContainer">
 
@@ -30,6 +41,9 @@ export default function AboutMePage() {
         <ul className="AboutMePage__picsContainer"></ul>
 
         </Container>
+        <ForWhom/>
+
+        
     </Container>
   )
 }

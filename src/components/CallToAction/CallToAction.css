@@ -1,0 +1,81 @@
+.CallToAction__section {
+    background-image: url(../../images/bg/bgstarts.jpg);
+    background-position: bottom;
+    background-position: center bottom -70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    min-height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.CallToAction__wrapper {
+    background: linear-gradient(
+        135deg,
+        rgba(18, 59, 36, 0.85) 0%,
+        rgba(18, 59, 36, 0.65) 100%
+    );
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 525px;
+    width: 100%;
+    min-width: 100%;
+    margin: 0;
+}
+
+.CallToAction__container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.CallToAction__text {
+    color: #e8e4db;
+    align-self: center;
+    text-align: center;
+    max-width: 800px;
+    margin: 0;
+}
+
+.CallToAction__title {
+    align-self: center!important;
+}
+
+.CallToAction__linkToPage {
+    color: #e8e4db;
+    margin-top: 50px;
+    background-color: #ad9f76;
+    padding: 0 40px;
+    height: 60px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 22px;
+    width: 300px;
+    align-self: center;
+    transition: transform 0.2s ease;
+}
+
+.CallToAction__linkToPage:hover {
+    transform: scale(1.01);
+}
+
+@media screen and (max-width: 550px) {
+    .CallToAction__linkToPage {
+        width: 90%;
+        align-self: center;
+        padding: 0;
+    }
+}

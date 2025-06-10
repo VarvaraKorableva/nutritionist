@@ -26,9 +26,8 @@ export default function Header() {
       {width >= 900 ?
         <nav className="header__nav">
             <Link to={'/about-me'}>Обо мне</Link>
-            <a href="#services">Услуги</a>
+            <Link to={'/services'}>Услуги</Link>
             <a href="#reviews">Отзывы</a>
-            <a href="#adviсe">Блог</a>
             <a href="#contact">Контакты</a>
         </nav>
       :

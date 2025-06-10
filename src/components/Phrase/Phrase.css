@@ -6,15 +6,6 @@
     margin-bottom: 0;
 }
 
-.Phrase__subtitlePic {
-    min-width: 200px;
-    min-height: 200px;
-    background-image: url(../../images/hurt.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
 .Phrase__subtitleContainer {
     display: flex;
     gap: 50px;

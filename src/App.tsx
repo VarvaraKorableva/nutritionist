@@ -16,6 +16,8 @@ import HowWeWork from './components/HowWeWork/HowWeWork'
 import YourResults from './components/YourResults/YourResults'
 import Results from './components/YourResults/Results/Results'
 import Education from './components/Education/Education'
+
+import CallToAction from './components/CallToAction/CallToAction'
 // import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
@@ -37,13 +39,13 @@ function App() {
               <MyPrinciples />
               <About />
               <Mission />
-              <ForWhom/>
-              <Phrase />
+              <CallToAction />
+              {/*<Phrase />
               <HowWeWork />
               <Results />
               <YourResults />
               <Education />
-              {/*<ReviewsSlider/>
+              <ReviewsSlider/>
               <Services /> 
               <Blog/>
               
@@ -56,7 +58,7 @@ function App() {
           element={<BlogPostPage />} 
         />
         <Route 
-          path="/services/:slug" 
+          path="/services" 
           element={<ServiceDetailsPage />} 
         />
         <Route 

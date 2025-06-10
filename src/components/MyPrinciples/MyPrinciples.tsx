@@ -17,7 +17,7 @@ export default function MyPrinciples() {
         <FaBalanceScale className="myPrinciples__favicon" />
         <h3 className="sub_sub_title">Профессиональные границы и этика</h3>
     </div>
-    <p className="myPrinciples__text">
+    <p className="myPrinciples__text text">
         Чёткое соблюдение границ профессиональной компетенции и этических норм в каждой ситуации.
     </p>
 </li>
@@ -27,7 +27,7 @@ export default function MyPrinciples() {
         <FaHandshake className="myPrinciples__favicon" />
         <h3 className="sub_sub_title">Партнёрство и доверие</h3>
     </div>
-    <p className="myPrinciples__text">
+    <p className="myPrinciples__text text">
         Работа в формате диалога и взаимного уважения, где клиенту можно доверять и быть собой.
     </p>
 </li>
@@ -37,7 +37,7 @@ export default function MyPrinciples() {
         <FaHeart className="myPrinciples__favicon" />
         <h3 className="sub_sub_title">Фокус на заботу о себе</h3>
     </div>
-    <p className="myPrinciples__text">
+    <p className="myPrinciples__text text">
         Забота о благополучии клиента как главная ценность — без давления и ожидания быстрых результатов.
     </p>
 </li>
@@ -47,7 +47,7 @@ export default function MyPrinciples() {
         <FaFlask className="myPrinciples__favicon" />
         <h3 className="sub_sub_title">Доказательность и наука</h3>
     </div>
-    <p className="myPrinciples__text">
+    <p className="myPrinciples__text text">
         Подход, основанный на актуальных научных данных и рекомендациях доказательной медицины.
     </p>
 </li>
@@ -57,7 +57,7 @@ export default function MyPrinciples() {
         <FaUserCheck className="myPrinciples__favicon" />
         <h3 className="sub_sub_title">Индивидуальный подход</h3>
     </div>
-    <p className="myPrinciples__text">
+    <p className="myPrinciples__text text">
         Уважение к уникальности каждого клиента: его целям, опыту, личным качествам и темпу движения.
     </p>
 </li>
@@ -67,7 +67,7 @@ export default function MyPrinciples() {
         <FaLightbulb className="myPrinciples__favicon" />
         <h3 className="sub_sub_title">Развитие и осознанность</h3>
     </div>
-    <p className="myPrinciples__text">
+    <p className="myPrinciples__text text">
         Помощь в раскрытии потенциала, развитии осознанности и формировании устойчивых изменений в жизни.
     </p>
 </li>

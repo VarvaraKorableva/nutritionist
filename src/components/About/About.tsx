@@ -1,6 +1,7 @@
 import './About.css'
 import Container from '../UI-Kit/Container/Container'
 import { Link } from 'react-router-dom';
+import Heading from '../UI-Kit/Heading/Heading'
 
 export default function About() {
   return (
@@ -9,8 +10,8 @@ export default function About() {
           <div className="about__heroPic"></div>
         
           <div className="about__heroTextContainer">
-            <h3 className="about__title">Привет! Меня зовут Рина Денисова</h3>
-            <p className="about__text">
+            <Heading>Привет! Меня зовут Рина Денисова</Heading>
+            <p className="about__text text">
             Я - сертифицированный Health и wellness-коуч уровня ICF с высшим медицинским образованием и степенью кандидата наук. 
             В 2004 г я закончила педиатрический факультет медицинского университета с отличием, а в 2006 г получила сертификат по окончании ординатуры по педиатрии, а в 2009 г - степень кандидата наук. До 2022 г я работала детским ревматологом в федеральном центре г Москвы, занималась научной деятельностью, возглавляла отдел по клиническим исследованиям и локальный независимый этический комитет центра.
             </p>

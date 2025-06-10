@@ -1,33 +1,56 @@
 .mission__wrapper {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 50px;
-    
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
-.mission__sunPic {
-    width: 200px;
-    height: 200px;
-    background-image: url(../../images/sun.png);
-    background-position: start;
-    background-size: contain;
-    background-repeat: no-repeat;
+.mission__container {
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission__title {
+    text-align: center!important;
+    align-self: center!important;
+    margin-bottom: 25px!important;
 }
 
 .mission__text {
-    font-size: 36px;
-    line-height: 50px;
-    max-width: 800px;
-    text-align: end;
-    margin: 0;
-/*
-    background-image: url(../../images/forWhom.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;*/
+    line-height: 40px;
+    text-align: center;
+    margin: 0; 
+}
+
+.mission__link {
+    color: #ad9f76;
+    border: 2px solid #ad9f76;
+    margin-top: 50px;
+    background-color: transparent;
+    padding: 0 40px;
+    height: 60px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 22px;
+    width: 300px;
+    align-self: center;
+
+    transition: transform background-color color 0.2s ease;
+}
+
+.mission__link:hover {
+    transform: scale(1.01);
+    background-color: #ad9f76;
+    color: #e8e4db;
 }
 
 @media screen and (max-width: 1300px) {
@@ -37,21 +60,11 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
-    .mission__text {
-        font-size: 32px;
-        max-width: 650px;
-    }    
+@media screen and (max-width: 1200px) {  
 
     .mission__wrapper {
         gap: 30px;
     }
-}
-
-@media screen and (max-width: 1000px) {
-    .mission__text {
-        font-size: 30px;
-    }    
 }
 
 @media screen and (max-width: 750px) {
@@ -60,9 +73,9 @@
     }
 }
 
-@media screen and (max-width: 500px) {
-    .mission__text {
-        font-size: 26px;
+@media screen and (max-width: 550px) {
+    .mission__link  {
+        width: 90%;
+        padding: 0;
     }
 }
-
