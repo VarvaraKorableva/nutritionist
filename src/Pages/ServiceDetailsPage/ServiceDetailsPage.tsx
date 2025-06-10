@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import './ServiceDetailsPage.css'
-import Container from '../../components/UI-Kit/Container/Container'
+//import Container from '../../components/UI-Kit/Container/Container'
 import Phrase from '../../components/Phrase/Phrase'
 import ServiceDetailsPageTitle from '../../components/ServiceDetailsPage/ServiceDetailsPageTitle/ServiceDetailsPageTitle'
 

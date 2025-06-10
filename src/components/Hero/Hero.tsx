@@ -1,5 +1,5 @@
 import './Hero.css'
-import { FaLinkedin, FaInstagram, FaWhatsapp, FaTelegram, FaGoogle } from 'react-icons/fa'
+//import { FaLinkedin, FaInstagram, FaWhatsapp, FaTelegram, FaGoogle } from 'react-icons/fa'
 import Container from '../UI-Kit/Container/Container'
 //<Container as='div' baseClassName='container'>
 export default function Hero() {
