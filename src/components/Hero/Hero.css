@@ -1,7 +1,8 @@
 .hero__section {
     background-image: url(../../images/bg/bg.jpg);
-    background-position: bottom;
-    background-position: center bottom -70px;
+    background-image: url(../../images/bg/bgstars.jpg);
+    background-position: center;
+    /*background-position: center bottom -70px;*/
     background-repeat: no-repeat;
     background-size: cover;
     min-width: 100%;
@@ -25,27 +26,17 @@
 }
 
 .hero__imgAndIconsContainer {
-    display: flex;
+/*    display: flex;
     flex-direction: column;
     gap: 20px;
     justify-content: center;
     align-items: center;
-    
+    */
 }
 
 .hero__infoContainer {
     display: flex;
     padding: 0;
-}
-
-.hero__img {
-    border-radius: 50%;
-    width: 450px;
-    height: 450px;
-    background-image: url(../../images/herophoto.jpg);
-    background-position: start;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .hero__textContainer {
@@ -55,15 +46,6 @@
     justify-content: space-between;
     align-items: start;
     text-align: start;
-}
-
-.hero__btnHurt {
-    width: 50px;
-    height: 50px;
-    background-image: url(../../images/hurt.png);
-    background-position: start;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .hero__formLink {
@@ -167,10 +149,10 @@
         font-size: 28px;
         font-weight: 400;
     }
-
+/*
     .hero__infoContainer {
         gap: 30px;
-    }
+    }*/
 
     .hero__img {
         width: 400px;
@@ -187,12 +169,12 @@
 
     .hero__section {
         background-image: url(../../images/bg/smallbg.jpg);
-        background-position: end;
+        background-image: url(../../images/bg/bgstars.jpg);
     }
 
     .hero__infoContainer {
         flex-direction: column;
-        gap: 20px;
+        /*gap: 20px;*/
     }
 
     .hero__title {
@@ -234,12 +216,19 @@
     }
 }
 @media screen and (max-width: 500px) {
-    .hero__subtitle {
-        font-size: 24px;
+    .hero__section {
+        background-position: center;
+        padding: 0;
     }
 
-    .hero__section {
-        padding: 0;
+    .hero__title {
+        font-weight: 300;
+        margin-bottom: 0;
+    }
+
+    .hero__subtitle {
+        font-size: 24px;
+        font-weight: 300;
     }
 
     .hero__btnHurt {

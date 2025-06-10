@@ -19,16 +19,16 @@ export default function Header() {
 
       <Link to={`/nutritionist/`} className="header__logoContainer">
         <div className="header__logoImg"></div>
-        <div className="header__logoName">Рина Денисова</div>
+        <div className="header__logoName text">Рина Денисова</div>
       </Link>  
       
       <div className="header__navWrapper">
       {width >= 900 ?
         <nav className="header__nav">
-            <Link to={'/about-me'}>Обо мне</Link>
-            <Link to={'/services'}>Услуги</Link>
-            <a href="#reviews">Отзывы</a>
-            <a href="#contact">Контакты</a>
+            <Link to={'/about-me'} className="header__navLink text">Обо мне</Link>
+            <Link to={'/services'} className="header__navLink text">Услуги</Link>
+            <a href="#reviews" className="header__navLink text">Отзывы</a>
+            <a href="#contact" className="header__navLink text">Контакты</a>
         </nav>
       :
         <FiMenu className="header__burgerIcon"></FiMenu>

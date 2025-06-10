@@ -24,6 +24,14 @@ body {
   font-weight: 300;
 }
 
+.btn {
+  font-size: 22px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 1000px) {
   body {
     font-size: 18px;
@@ -31,6 +39,10 @@ body {
 
   .text {
     font-size: 18px;
+  }
+
+  .btn {
+    font-size: 20px;
   }
 }
 
@@ -40,5 +52,32 @@ body {
   }
   .text {
     font-size: 16px;
+  }
+  .btn {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  body {
+    font-size: 14px;
+  }
+  .text {
+    font-size: 14px;
+  }
+  .btn {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  body {
+    font-size: 12px;
+  }
+  .text {
+    font-size: 12px;
+  }
+  .btn {
+    font-size: 14px;
   }
 }

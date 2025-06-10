@@ -1,5 +1,5 @@
 .CallToAction__section {
-    background-image: url(../../images/bg/bgstarts.jpg);
+    background-image: url(../../images/bg/bgstars.jpg);
     background-position: bottom;
     background-position: center bottom -70px;
     background-repeat: no-repeat;
@@ -58,11 +58,6 @@
     padding: 0 40px;
     height: 60px;
     text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    font-size: 22px;
     width: 300px;
     align-self: center;
     transition: transform 0.2s ease;
@@ -70,6 +65,12 @@
 
 .CallToAction__linkToPage:hover {
     transform: scale(1.01);
+}
+
+@media screen and (max-width: 900px) {
+    .CallToAction__section {
+        background-position: center;
+    }
 }
 
 @media screen and (max-width: 550px) {

@@ -13,7 +13,7 @@ export default function CallToAction() {
                         Запишитесь на бесплатную 20-минутную консультацию, чтобы узнать, как мы можем поработать вместе
                     </p>
 
-                    <Link to={'/about-me'} className="CallToAction__linkToPage">Записаться на звонок</Link>
+                    <Link to={'/about-me'} className="CallToAction__linkToPage btn">Записаться на звонок</Link>
                 </Container>
             </Container>
         </Container>

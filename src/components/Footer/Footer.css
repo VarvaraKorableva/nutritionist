@@ -1,7 +1,6 @@
 .footer__section {
-    background-image: url(../../images/bg/bgstarts.jpg);
-    background-position: bottom;
-    background-position: center bottom -70px;
+    background-image: url(../../images/bg/bgstars.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-width: 100%;

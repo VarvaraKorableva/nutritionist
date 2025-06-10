@@ -14,7 +14,7 @@ export default function Mission() {
                         Через осознанность мы проясняем, чего на самом деле хотим, и шаг за шагом движемся к жизни, в которой больше радости, баланса и внутреннего согласия.
                     </p>
 
-                    <Link to={'/about-me'} className="mission__link">Хочу попробовать</Link>
+                    <Link to={'/about-me'} className="mission__link btn">Хочу попробовать</Link>
                 </Container>
             </Container>
         </Container>

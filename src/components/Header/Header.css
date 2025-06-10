@@ -44,27 +44,22 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }
 .header__logoName {
-    font-weight: 300;
     color: #4e7141;
-    font-size: 26px;
 }
   
-.header__nav a {
+.header__navLink {
     margin: 0 1rem;
     text-decoration: none;
     color: rgba(0,0,0,0.6);;
-    font-weight: 400;
-    font-size: 20px;
 }
-  
-.header__nav a:hover {
+
+.header__navLink:hover {
     color: #ad9f76;
     transition: all 0.3s ease;
 }   
 
 .header__burgerIcon {
     font-weight: 60px;
-    border: 2px solid #ad9f76;
     color: #ad9f76;
     padding: 10px;
     text-decoration: none;
@@ -83,8 +78,8 @@
     transition: all 0.3s ease;
 }
 .header__cta {
-    border: 2px solid #ad9f76;
-    color: #ad9f76;
+    /*border: 2px solid #ad9f76;
+    color: #ad9f76;*/
     padding: 0.6rem 1.2rem;
     padding: 10px;
     text-decoration: none;
@@ -107,12 +102,11 @@
         gap: 20px;
     }
 
-    .header__nav a {
-        font-size: 18px;
+    .header__navLink {
         margin: 0 10px;
     }
 
-    .header__nav a:hover {
+    .header__navLink:hover {
         padding: 7px 15px;
     } 
 
@@ -120,19 +114,9 @@
         font-weight: 400;
     }
 
-    .header__logoName {
-        font-size: 24px;
-    }
-
     .header__logoImg {
         width: 80px;
         height: 80px;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    .header__logoName {
-        font-size: 22px;
     }
 }
 
@@ -151,12 +135,13 @@
         width: 25px;
     }
 
-    .header__logoName {
-        font-size: 20px;
-    }
-
     .header__logoContainer {
         gap: 10px;
+    }
+
+    .header__logoImg {
+        width: 60px;
+        height: 60px;
     }
 }
 
@@ -168,7 +153,9 @@
 
 @media screen and (max-width: 380px) {
     .header__logoName {
-        max-width: 120px;
+        display: flex;
+        flex-wrap: nowrap;
+        font-size: 14px!important;
     }
 
     .header__burgerIcon {
@@ -179,5 +166,11 @@
     .header__cta {
         height: 22px;
         width: 22px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .header__logoName {
+        font-size: 10px!important;
     }
 }
