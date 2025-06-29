@@ -1,14 +1,32 @@
 .forWhom__wrapper {
-    background-image: url(../../images/forwhom/4.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
+.forWhom__container {
+    display: flex;
+    gap: 50px;
+}
+
+.forWhom__containerHeading {
+    padding: 0!important;
+}
+
+.forWhom__heroPic {
+    width: 400px;
+    max-height: 600px;
+    min-height: 500px;
+    flex-shrink: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 2;
+    flex-shrink: 0;
+}
+
 .forWhom__text {
-    
-    
+    margin: 5px;
 }
 
 .forWhom__textContainer {

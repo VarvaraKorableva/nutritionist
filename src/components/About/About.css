@@ -17,7 +17,7 @@
     max-height: 600px;
     min-height: 500px;
     flex-shrink: 0;
-    background-image: url(../../images/herophoto.jpg);
+    /*background-image: url(../../images/herophoto.jpg);*/
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

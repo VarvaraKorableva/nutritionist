@@ -2,12 +2,13 @@ import './About.css'
 import Container from '../UI-Kit/Container/Container'
 import { Link } from 'react-router-dom';
 import Heading from '../UI-Kit/Heading/Heading'
+import pic from '/images/rina1.jpeg'
 
 export default function About() {
   return (
     <Container as='section' baseClassName='wrapper' className="about__section">
         <Container as='div' baseClassName='container' className="about__wrapper">
-          <div className="about__heroPic"></div>
+          <img className="about__heroPic" src={pic}></img>
         
           <div className="about__heroTextContainer">
             <Heading>Привет! Меня зовут Рина Денисова</Heading>

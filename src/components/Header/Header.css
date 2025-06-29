@@ -14,7 +14,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
 }
 
 .header__logoContainer {
@@ -38,8 +39,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }
