@@ -9,6 +9,7 @@ import MyPrinciples from './components/MyPrinciples/MyPrinciples'
 import BlogPostPage from './Pages/BlogPostPage'
 import ServiceDetailsPage from './Pages/ServiceDetailsPage/ServiceDetailsPage'
 import AboutMePage from './Pages/AboutMePage/AboutMePage'
+import ReviewsPage from './Pages/ReviewsPage/ReviewsPage'
 import Mission from './components/Mission/Mission'
 //import ForWhom from './components/ForWhom/ForWhom'
 /////import Phrase from './components/Phrase/Phrase'
@@ -65,6 +66,13 @@ function App() {
           path="/about-me" 
           element={<AboutMePage />} 
         />
+
+        <Route 
+          path="/reviews-page" 
+          element={<ReviewsPage />} 
+        />
+
+
         {/* Пример: отдельная страница */}
         {/* <Route path="/thank-you" element={<ThankYouPage />} /> */}
       </Routes>

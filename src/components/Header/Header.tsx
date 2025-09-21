@@ -18,7 +18,7 @@ export default function Header() {
       <Container as='div' baseClassName='container' className="header__container">
 
       <Link to={`/nutritionist/`} className="header__logoContainer">
-        <div className="header__logoImg"></div>
+        {/*<div className="header__logoImg"></div>*/}
         <div className="header__logoName text">Рина Денисова</div>
       </Link>  
       
@@ -27,7 +27,7 @@ export default function Header() {
         <nav className="header__nav">
             <Link to={'/about-me'} className="header__navLink text">Обо мне</Link>
             <Link to={'/services'} className="header__navLink text">Услуги</Link>
-            <a href="#reviews" className="header__navLink text">Отзывы</a>
+            <Link to={'/reviews-page'} className="header__navLink text">Отзывы</Link>
             <a href="#contact" className="header__navLink text">Контакты</a>
         </nav>
       :
