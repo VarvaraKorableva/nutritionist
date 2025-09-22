@@ -1,0 +1,19 @@
+.Promotion__title {
+    font-size: 36px;
+    font-weight: 400;
+    color: #ad9f76;
+    margin: 0;
+    margin-bottom: 50px;
+}
+.Promotion__text {
+    font-size: 24px;
+    font-weight: 200;
+    color: #e8e4db;
+    margin: 0;
+    max-width: 600px;
+}
+.Promotion__title-container {
+    display: flex;
+    flex-direction: column;
+
+}

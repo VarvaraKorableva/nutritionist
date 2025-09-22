@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 100px;
+    padding-bottom: 0;
     background-color: #e8e4db;
     scroll-margin-top: 100px;
 }
@@ -23,7 +23,6 @@
     background-color: transparent;
     list-style-type: none;
     padding: 20px;
-    
     color: #1f1f1f;
     font-size: 20px;
     margin: 0;
@@ -32,22 +31,31 @@
     text-decoration: none;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .services__cardTitle {
     font-size: 24px;
     font-weight: 400;
     color: #ad9f76;
-
-    /*min-height: 70px;*/
+    text-align: start;
     margin: 20px 0;
-    text-align: center;
 }
 
 .services__features {
-    font-size: 16px;
+    font-size: 20px;
     margin: 0;
+    padding: 20px;
+}
+
+.services__durations {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.services__durationItem {
+    list-style-type: none;
 }
 
 .services__btn {

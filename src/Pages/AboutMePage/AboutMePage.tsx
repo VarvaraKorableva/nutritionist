@@ -7,6 +7,7 @@ import AboutMePageTitle from '../../components/About/AboutMePage/AboutMePageTitl
 import AboutMeInfo from '../../components/About/AboutMePage/AboutMeInfo/AboutMeInfo'
 import CallToAction from '../../components/CallToAction/CallToAction'
 import CallToActionBeginSection from '../../components/CallToActionBeginSection/CallToActionBeginSection'
+import Diplomas from '../../components/Diplomas/Diplomas'
 
 //import Phrase from '../../components/Phrase/Phrase'
 /*import { useEffect } from 'react';
@@ -25,6 +26,7 @@ export default function AboutMePage() {
         <AboutMeInfo/>
         <CallToActionBeginSection />
         <ForWhom/>
+        <Diplomas/>
         <CallToAction />
         
     </Container>

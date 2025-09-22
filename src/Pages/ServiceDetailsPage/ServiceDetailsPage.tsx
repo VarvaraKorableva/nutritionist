@@ -4,6 +4,7 @@ import './ServiceDetailsPage.css'
 import Phrase from '../../components/Phrase/Phrase'
 import Services from '../../components/Services/Services'
 import ServiceDetailsPageTitle from '../../components/ServiceDetailsPage/ServiceDetailsPageTitle/ServiceDetailsPageTitle'
+import Promotion from '../../components/Promotion/Promotion'
 
 export default function ServiceDetailsPage() {
 
@@ -15,6 +16,7 @@ export default function ServiceDetailsPage() {
       <>
         <ServiceDetailsPageTitle />
         <Services></Services>
+        <Promotion></Promotion>
         <Phrase />
       </>
     )

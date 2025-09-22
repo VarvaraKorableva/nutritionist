@@ -7,9 +7,10 @@ import contacts from '../../Data/contacts.json'
 export default function Hero() {
   return (
     <Container as='section' baseClassName='wrapper' className='hero__section'>
+      
       <Container as='div' baseClassName='wrapper' className='hero__wrapper'>
       <Container as='div' baseClassName='container' className='hero__container'>
-      
+        <div className='here__flower'></div>
         <div className="hero__infoContainer">
             <div className="hero__imgAndIconsContainer">
               {/*<div className="hero__img"></div>

@@ -1,8 +1,6 @@
 .hero__section {
-    background-image: url(../../images/bg/bg.jpg);
     background-image: url(../../images/bg/bgstars.jpg);
     background-position: center;
-    /*background-position: center bottom -70px;*/
     background-repeat: no-repeat;
     background-size: cover;
     min-width: 100%;
@@ -13,6 +11,28 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+.hero__container {
+    position: relative;
+}
+
+.here__flower {
+    position: absolute;
+    /*bottom: -250px;
+    right: -150px;
+    width: 600px;
+    height: 800px;*/
+    bottom: -100px;
+    right: 50px;
+    width: 600px;
+    height: 600px;
+    background-image: url(../../images/flovers.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*transform: rotate(-50deg);*/
+    opacity: 0.5;
 }
 
 
@@ -149,7 +169,18 @@
         font-weight: 400;
     }
 
-
+    .here__flower {
+        bottom: -100px;
+        right: -100px;
+        width: 500px;
+        height: 500px;
+        background-image: url(../../images/flovers.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        /*transform: rotate(-50deg);*/
+        opacity: 0.5;
+    }
 }
 
 @media screen and (max-width: 1000px) {
