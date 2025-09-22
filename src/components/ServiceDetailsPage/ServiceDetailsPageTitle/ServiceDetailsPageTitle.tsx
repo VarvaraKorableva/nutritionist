@@ -14,7 +14,7 @@ export default function ServiceDetailsPageTitle() {
         <Container as='div' baseClassName='wrapper' className='aboutMePageTitle__wrapper'>
         <Container as='div' baseClassName='container' className='aboutMePageTitle__container'>
         
-          <h2 className='aboutMePageTitle__title'>Услуги</h2>
+          <h2 className='aboutMePageTitle__title'>Услуги и программы</h2>
         </Container>
 
         

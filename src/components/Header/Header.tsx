@@ -28,14 +28,11 @@ export default function Header() {
             <Link to={'/about-me'} className="header__navLink text">Обо мне</Link>
             <Link to={'/services'} className="header__navLink text">Услуги</Link>
             <Link to={'/reviews-page'} className="header__navLink text">Отзывы</Link>
-            <a href="#contact" className="header__navLink text">Контакты</a>
+            <Link to={'/contacts-page'} className="header__navLink text">Контакты</Link>
         </nav>
       :
         <FiMenu className="header__burgerIcon"></FiMenu>
       }
-        <a href="tel:+79991234567" className="header__cta">
-            📞 
-        </a>
       </div>
 
       </Container>  

@@ -1,0 +1,39 @@
+.ReviewsTitle__section {
+    background-image: url(../../../images/bg/bgflowers.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    min-height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ReviewsTitle__wrapper {
+    background: linear-gradient(
+        135deg,
+        rgba(18, 59, 36, 0.85) 0%,
+        rgba(18, 59, 36, 0.65) 100%
+    );
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 525px;
+}
+
+.ReviewsTitle__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.ReviewsTitle__title {
+    color: #ad9f76;
+    font-size: 50px;
+    font-weight: 300;
+}

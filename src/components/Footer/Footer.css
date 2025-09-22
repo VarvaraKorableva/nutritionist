@@ -61,3 +61,15 @@
         flex-direction: column;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .footer__li {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .footer__li {
+        font-size: 12px;
+    }
+}

@@ -2,6 +2,8 @@ import './Hero.css'
 //import { FaLinkedin, FaInstagram, FaWhatsapp, FaTelegram, FaGoogle } from 'react-icons/fa'
 import Container from '../UI-Kit/Container/Container'
 //<Container as='div' baseClassName='container'>
+import contacts from '../../Data/contacts.json'
+
 export default function Hero() {
   return (
     <Container as='section' baseClassName='wrapper' className='hero__section'>
@@ -46,9 +48,18 @@ export default function Hero() {
               </div>
                 {/*<p>вместе со мной</p>*/}
                 <h2 className="hero__subtitle">Индивидуальное сопровождение <span className="hero__noWrap">до результата</span></h2>
-                <a className='hero__formLink'>
-                  <p className='hero__btnText'>Записаться на консультацию</p>
-                </a>
+
+                <p className="hero__subsubtitle">Записаться на консультацию</p>
+
+                <div className='hero__btn-container'>
+                  <a className='hero__formLink' href={`https://t.me/${contacts[0].telegram}`}>
+                    <p className='hero__btnText'>в Telegram</p>
+                  </a>
+                  <a className='hero__formLink' href={`https://wa.me/${contacts[0].whatsapp}`}>
+                    <p className='hero__btnText'>в what's app</p>
+                  </a>
+                </div>
+
             </div>
         </div>
         

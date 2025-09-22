@@ -1,7 +1,9 @@
 import './Footer.css'
-import { FaLinkedin, FaInstagram, FaWhatsapp, FaTelegram, FaGoogle } from 'react-icons/fa'
+import { FaInstagram, FaWhatsapp, FaTelegram, FaGoogle, FaYoutube } from 'react-icons/fa'
 import Container from '../UI-Kit/Container/Container'
 import { Link } from 'react-router-dom';
+//import SocialLinks from '../Contacts/SocialLinks/SocialLinks'
+import contacts from '../../Data/contacts.json'
 
 export default function Footer() {
   return (
@@ -11,27 +13,27 @@ export default function Footer() {
       <Container as='div' baseClassName='container' className="footer__container"> 
         <ul className='footer__contact-container'>
                   <li className='hero__contact-item'>
-                    <a className='hero__contact-item-link' href='mailto:varvarakorablevawork@gmail.com' target='_blank'>
+                    <a className='hero__contact-item-link' href={`mailto:${contacts[0].email}`} target='_blank'>
                       <FaGoogle />
                     </a>
                   </li>
                   <li className='hero__contact-item'>
-                    <a className='hero__contact-item-link' href='https://www.linkedin.com/in/varvara-korableva/' target='_blank'>
-                      <FaLinkedin />
+                    <a className='hero__contact-item-link' href={`${contacts[0].utube}`} target='_blank'>
+                      <FaYoutube />
                     </a>
                   </li>
                   <li className='hero__contact-item'>
-                    <a className='hero__contact-item-link' href='https://www.instagram.com/varvarakorableva/' target='_blank'>
+                    <a className='hero__contact-item-link' href={`${contacts[0].instagram}`} target='_blank'>
                       <FaInstagram />
                     </a>
                   </li>
                   <li className='hero__contact-item'>
-                    <a className='hero__contact-item-link' href='https://wa.me/+79163270427' target='_blank'>
+                    <a className='hero__contact-item-link' href={`https://wa.me/${contacts[0].whatsapp}`} target='_blank'>
                       <FaWhatsapp />
                     </a>
                   </li>
                   <li className='hero__contact-item'>
-                    <a className='hero__contact-item-link' href='https://t.me/VarvaraKorableva' target='_blank'>
+                    <a className='hero__contact-item-link' href={`https://t.me/${contacts[0].telegram}`} target='_blank'>
                       <FaTelegram />
                     </a>
                   </li>
@@ -41,8 +43,8 @@ export default function Footer() {
 
           <Link to={'/about-me'} className='footer__li'>Обо мне</Link>
           <Link to={'/services'} className='footer__li'>Услуги</Link>
-          <div className='footer__li'>Отзывы</div>
-          <div className='footer__li'>Контакты</div>
+          <Link to={'/reviews-page'} className='footer__li'>Отзывы</Link>
+          <Link to={'/contacts-page'} className='footer__li'>Контакты</Link>
 
         </div>
       </Container> 
