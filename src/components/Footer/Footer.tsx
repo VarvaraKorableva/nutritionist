@@ -18,7 +18,7 @@ export default function Footer() {
                     </a>
                   </li>
                   <li className='hero__contact-item'>
-                    <a className='hero__contact-item-link' href={`${contacts[0].utube}`} target='_blank'>
+                    <a className='hero__contact-item-link' href={`${contacts[0].youtube}`} target='_blank'>
                       <FaYoutube />
                     </a>
                   </li>

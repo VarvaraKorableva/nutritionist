@@ -1,5 +1,5 @@
 import './Hero.css'
-//import { FaLinkedin, FaInstagram, FaWhatsapp, FaTelegram, FaGoogle } from 'react-icons/fa'
+import { FaLinkedin, FaInstagram, FaWhatsapp, FaTelegram, FaGoogle } from 'react-icons/fa'
 import Container from '../UI-Kit/Container/Container'
 //<Container as='div' baseClassName='container'>
 import contacts from '../../Data/contacts.json'
@@ -54,10 +54,10 @@ export default function Hero() {
 
                 <div className='hero__btn-container'>
                   <a className='hero__formLink' href={`https://t.me/${contacts[0].telegram}`}>
-                    <p className='hero__btnText'>в Telegram</p>
+                    <p className='hero__btnText'>в Telegram</p> <FaTelegram />
                   </a>
                   <a className='hero__formLink' href={`https://wa.me/${contacts[0].whatsapp}`}>
-                    <p className='hero__btnText'>в what's app</p>
+                    <p className='hero__btnText'>в What's App</p> <FaWhatsapp />
                   </a>
                 </div>
 

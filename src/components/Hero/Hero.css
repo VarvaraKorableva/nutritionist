@@ -85,6 +85,7 @@
     align-items: center;
     text-decoration: none;
     transition: transform 0.2s ease;
+    gap: 10px;
 }
 
 .hero__formLink:hover {
@@ -174,11 +175,11 @@
         right: -100px;
         width: 500px;
         height: 500px;
-        background-image: url(../../images/flovers.png);
+        background-image: url(../../images/flower.png);
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
-        /*transform: rotate(-50deg);*/
+        transform: rotate(-50deg);
         opacity: 0.5;
     }
 }

@@ -18,6 +18,8 @@
 }
 .reviews__name {
     margin: 0;
+    color: #ad9f76;
+    font-weight: 400;
 }
 
 .reviews__text {

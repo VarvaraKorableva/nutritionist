@@ -1,49 +1,50 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom'
+import React from 'react'
 import Header from './components/Header/Header'
-import Hero from './components/Hero/Hero'
-import About from './components/About/About'
-import MyPrinciples from './components/MyPrinciples/MyPrinciples'
-import BlogPostPage from './Pages/BlogPostPage'
+import MainPage from './Pages/MainPage/MainPage'
 import ServiceDetailsPage from './Pages/ServiceDetailsPage/ServiceDetailsPage'
 import AboutMePage from './Pages/AboutMePage/AboutMePage'
 import ReviewsPage from './Pages/ReviewsPage/ReviewsPage'
 import ContactsPage from './Pages/ContactsPage/ContactsPage'
-import Mission from './components/Mission/Mission'
-import CallToAction from './components/CallToAction/CallToAction'
 import Footer from './components/Footer/Footer'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
+import ImagePopup from './components/Popups/ImagePopup'
 
 import './index.css'
 
 function App() {
+  const [imgPopup, setImgPopup] = React.useState(false)
+  const [selectedCard, setSelectedCard] = React.useState({})
+
+  function handleImgPopupOpen() {
+    setImgPopup(true)
+  }
+
+  function closeAllPopups() {
+    setImgPopup(false)
+  }
+
+  function handleCardClick(img) {
+    setSelectedCard(img);
+    handleImgPopupOpen()
+  }
+
   return (
     <>
       <ScrollToTop />
       <Header />
       <Routes>
         <Route
-          path="/nutritionist/"
-          element={
-            <>
-              <Hero />
-              <MyPrinciples />
-              <About />
-              <Mission />
-              <CallToAction />
-            </>
-          }
-        />
-        <Route 
-          path="/blog/:slug" 
-          element={<BlogPostPage />} 
-        />
+          path="/"
+          element={<MainPage/>}>
+        </Route>
         <Route 
           path="/services" 
           element={<ServiceDetailsPage />} 
         />
         <Route 
           path="/about-me" 
-          element={<AboutMePage />} 
+          element={<AboutMePage handleCardClick={handleCardClick}/>} 
         />
 
         <Route 
@@ -52,10 +53,16 @@ function App() {
         />
 
         <Route 
-          path="/contacts-page" 
+          path="//contacts-page" 
           element={<ContactsPage />} 
         />
       </Routes>
+
+      <ImagePopup 
+          diploma={selectedCard}
+          imgPopup={imgPopup}
+          onClose={closeAllPopups}
+      />
       <Footer />
     </>
   )

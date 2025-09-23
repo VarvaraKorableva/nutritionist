@@ -17,7 +17,7 @@ export default function Header() {
     <Container as='header' baseClassName='wrapper' className="header">
       <Container as='div' baseClassName='container' className="header__container">
 
-      <Link to={`/nutritionist/`} className="header__logoContainer">
+      <Link to={`/`} className="header__logoContainer">
         {/*<div className="header__logoImg"></div>*/}
         <div className="header__logoName text">Рина Денисова</div>
       </Link>  

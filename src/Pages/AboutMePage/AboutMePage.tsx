@@ -9,11 +9,7 @@ import CallToAction from '../../components/CallToAction/CallToAction'
 import CallToActionBeginSection from '../../components/CallToActionBeginSection/CallToActionBeginSection'
 import Diplomas from '../../components/Diplomas/Diplomas'
 
-//import Phrase from '../../components/Phrase/Phrase'
-/*import { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';*/
-
-export default function AboutMePage() {
+export default function AboutMePage({handleCardClick}) {
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -26,7 +22,7 @@ export default function AboutMePage() {
         <AboutMeInfo/>
         <CallToActionBeginSection />
         <ForWhom/>
-        <Diplomas/>
+        <Diplomas handleCardClick={handleCardClick}/>
         <CallToAction />
         
     </Container>

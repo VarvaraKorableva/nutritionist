@@ -1,0 +1,23 @@
+[
+    {
+        "img_id": 1,
+        "image": "./images/diplomas/1.png",
+        "img_name": "diploma's img"
+    },
+    {
+        "img_id": 2,
+        "image": "/images/diplomas/2.png",
+        "img_name": "diploma's img"
+    },
+    {
+        "img_id": 3,
+        "image": "/images/diplomas/3.png",
+        "img_name": "diploma's img"
+    },
+    {
+        "img_id": 4,
+        "image": "/images/diplomas/4.png",
+        "img_name": "diploma's img"
+    }
+
+]

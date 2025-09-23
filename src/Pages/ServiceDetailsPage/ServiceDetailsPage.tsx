@@ -5,6 +5,7 @@ import Phrase from '../../components/Phrase/Phrase'
 import Services from '../../components/Services/Services'
 import ServiceDetailsPageTitle from '../../components/ServiceDetailsPage/ServiceDetailsPageTitle/ServiceDetailsPageTitle'
 import Promotion from '../../components/Promotion/Promotion'
+import CallToAction from '../../components/CallToAction/CallToAction'
 
 export default function ServiceDetailsPage() {
 
@@ -18,6 +19,7 @@ export default function ServiceDetailsPage() {
         <Services></Services>
         <Promotion></Promotion>
         <Phrase />
+        <CallToAction />
       </>
     )
 }
