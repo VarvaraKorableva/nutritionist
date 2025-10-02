@@ -3,9 +3,9 @@ import './Popup.css'
 import { FaTimes } from 'react-icons/fa';
 
 type ImagePopupProps = {
-  diploma: string;
+  diploma: any;
   onClose: () => void;
-  imgPopup: string;
+  imgPopup: any;
 };
 
 function ImagePopup({ diploma, onClose, imgPopup }: ImagePopupProps) {
