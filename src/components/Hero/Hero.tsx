@@ -1,7 +1,6 @@
 import './Hero.css'
-import { FaLinkedin, FaInstagram, FaWhatsapp, FaTelegram, FaGoogle } from 'react-icons/fa'
+import { FaWhatsapp, FaTelegram} from 'react-icons/fa'
 import Container from '../UI-Kit/Container/Container'
-//<Container as='div' baseClassName='container'>
 import contacts from '../../Data/contacts.json'
 
 export default function Hero() {
