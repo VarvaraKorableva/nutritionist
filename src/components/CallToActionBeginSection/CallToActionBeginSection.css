@@ -30,15 +30,12 @@
 }
 
 .CallToActionBeginSection__container {
-    padding: 0;
-    margin: 0;
+    padding:  0 100px;
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    align-items: start;
+    justify-content: flex-start;
+    align-items: flex-start;
     gap: 20px;
-
-    max-width: 800px;
 }
 
 .CallToActionBeginSection__text {
@@ -50,7 +47,7 @@
 }
 
 .CallToActionBeginSection__title {
-    align-self: center!important;
+    
 }
 
 .CallToActionBeginSection__linkToPage {

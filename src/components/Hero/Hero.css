@@ -69,8 +69,8 @@
     flex-direction: column;
     gap: 20px;
     justify-content: space-between;
-    align-items: start;
-    text-align: start;
+    align-items: flex-start;
+    text-align: flex-start;
 }
 
 .hero__formLink {

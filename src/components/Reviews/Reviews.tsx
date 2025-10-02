@@ -12,7 +12,7 @@ export default function Reviews() {
                         <div className="reviews__header">
                             <p className="reviews__name">{review.name}, {review.job}, {review.date}</p>
                         </div>
-                        <p className="reviews__text">{review.text}</p>
+                        <p className="reviews__text text ">{review.text}</p>
                     </li>
                 ))}
             </ul>

@@ -10,7 +10,7 @@ export default function Hero() {
       
       <Container as='div' baseClassName='wrapper' className='hero__wrapper'>
       <Container as='div' baseClassName='container' className='hero__container'>
-        <div className='here__flower'></div>
+        {/*<div className='here__flower'></div>*/}
         <div className="hero__infoContainer">
             <div className="hero__imgAndIconsContainer">
               {/*<div className="hero__img"></div>

@@ -7,7 +7,7 @@ export default function CallToActionBeginSection() {
     return (
         <Container as='section' baseClassName='wrapper' className="CallToActionBeginSection__section">
             <Container as='div' baseClassName='container' className="CallToActionBeginSection__wrapper">
-                <Container as='div' className="CallToActionBeginSection__container">
+                <Container as='div' baseClassName='container' className="CallToActionBeginSection__container">
                     <Heading className="CallToActionBeginSection__title">Давно откладываешь заботу о себе «на&nbsp;потом» ?</Heading>
                     <p className="CallToActionBeginSection__text text">
                         Давай начнём с малого — сделай первый шаг уже сегодня

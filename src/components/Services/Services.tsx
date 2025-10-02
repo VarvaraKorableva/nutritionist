@@ -32,18 +32,7 @@ export default function Services() {
                                     </li>
                                 ))}
                             </ul>
-
-                            {/* если акция */}
-                            {service.promo && (
-                                <div className="services__promo">
-                                    <strong>Акция:</strong> {service.promo_details}
-                                </div>
-                            )}
-                            {/*
-                            <button className="services__btn">
-                                Узнать подробнее
-                            </button>
-                            */}
+                        
                         </li>
                     ))}
                 </ul>

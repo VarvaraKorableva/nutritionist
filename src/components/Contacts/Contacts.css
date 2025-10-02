@@ -7,6 +7,15 @@
     text-decoration: none;
 }
 
+.Contacts__li {
+    list-style-type: circle;
+}
+
 .Contacts__title {
 
+}
+
+.Contacts__section {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
