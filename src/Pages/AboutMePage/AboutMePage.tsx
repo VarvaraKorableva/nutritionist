@@ -8,7 +8,11 @@ import CallToAction from '../../components/CallToAction/CallToAction'
 import CallToActionBeginSection from '../../components/CallToActionBeginSection/CallToActionBeginSection'
 import Diplomas from '../../components/Diplomas/Diplomas'
 
-export default function AboutMePage({handleCardClick}) {
+type AboutMePageProps = {
+  handleCardClick: () => void;
+};
+
+export default function AboutMePage({handleCardClick}: AboutMePageProps) {
 
   useEffect(() => {
     window.scrollTo(0, 0)

@@ -3,7 +3,11 @@ import Heading from '../UI-Kit/Heading/Heading'
 import Container from '../UI-Kit/Container/Container'
 import diplomas from '../../Data/diplomas.json'
 
-export default function Diplomas({handleCardClick}) {
+type DiplomasProps = {
+    handleCardClick: () => void;
+  };
+
+export default function Diplomas({handleCardClick}: DiplomasProps) {
     
     const onDiploma = (diploma: any) => {
         handleCardClick(diploma)
