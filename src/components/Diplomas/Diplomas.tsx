@@ -4,7 +4,7 @@ import Container from '../UI-Kit/Container/Container'
 import diplomas from '../../Data/diplomas.json'
 
 type DiplomasProps = {
-    handleCardClick: () => void;
+    handleCardClick: (img: string) => void;
   };
 
 export default function Diplomas({handleCardClick}: DiplomasProps) {

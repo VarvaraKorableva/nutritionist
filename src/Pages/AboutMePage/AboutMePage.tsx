@@ -9,7 +9,7 @@ import CallToActionBeginSection from '../../components/CallToActionBeginSection/
 import Diplomas from '../../components/Diplomas/Diplomas'
 
 type AboutMePageProps = {
-  handleCardClick: () => void;
+  handleCardClick: (img: string) => void;
 };
 
 export default function AboutMePage({handleCardClick}: AboutMePageProps) {
