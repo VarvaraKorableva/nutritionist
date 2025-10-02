@@ -5,7 +5,7 @@ import diplomas from '../../Data/diplomas.json'
 
 export default function Diplomas({handleCardClick}) {
     
-    const onDiploma = (diploma) => {
+    const onDiploma = (diploma: any) => {
         handleCardClick(diploma)
     }
     return(

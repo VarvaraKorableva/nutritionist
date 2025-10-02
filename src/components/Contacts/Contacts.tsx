@@ -1,8 +1,7 @@
 import './Contacts.css'
-import Heading from '../UI-Kit/Heading/Heading'
 import Container from '../UI-Kit/Container/Container'
 import contacts from '../../Data/contacts.json'
-import { FaInstagram, FaWhatsapp, FaTelegram, FaGoogle, FaYoutube } from 'react-icons/fa'
+import { FaInstagram, FaWhatsapp, FaTelegram, FaGoogle } from 'react-icons/fa'
 
 export default function Contacts() {
     return(

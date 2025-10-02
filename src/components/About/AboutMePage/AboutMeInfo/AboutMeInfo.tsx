@@ -1,11 +1,7 @@
 
 import './AboutMeInfo.css'
-//import Heading from '../../components/UI-Kit/Heading/Heading'
 import Container from '../../../UI-Kit/Container/Container'
 import pic from '/images/rina3.jpeg'
-//import Phrase from '../../components/Phrase/Phrase'
-/*import { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';*/
 
 export default function AboutMeInfo() {
 

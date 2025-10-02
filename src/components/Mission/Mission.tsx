@@ -1,7 +1,6 @@
 import './Mission.css'
 import Container from '../UI-Kit/Container/Container'
 import Heading from '../UI-Kit/Heading/Heading'
-import { Link } from 'react-router-dom';
 import { useEffect, useRef, useState } from 'react';
 
 export default function Mission() {

@@ -24,7 +24,7 @@ function App() {
     setImgPopup(false)
   }
 
-  function handleCardClick(img) {
+  function handleCardClick(img: any) {
     setSelectedCard(img);
     handleImgPopupOpen()
   }

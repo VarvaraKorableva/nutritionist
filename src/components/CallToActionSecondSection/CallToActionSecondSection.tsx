@@ -1,6 +1,3 @@
-//CallToActionSecondSection
-
-
 import './CallToActionSecondSection.css'
 import Container from '../UI-Kit/Container/Container'
 import Heading from '../UI-Kit/Heading/Heading'

@@ -1,5 +1,4 @@
 import './Services.css'
-import Heading from '../UI-Kit/Heading/Heading'
 import Container from '../UI-Kit/Container/Container'
 import services from '../../Data/services.json'
 

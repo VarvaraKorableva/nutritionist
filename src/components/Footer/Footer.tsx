@@ -2,7 +2,6 @@ import './Footer.css'
 import { FaInstagram, FaWhatsapp, FaTelegram, FaGoogle, FaYoutube } from 'react-icons/fa'
 import Container from '../UI-Kit/Container/Container'
 import { Link } from 'react-router-dom';
-//import SocialLinks from '../Contacts/SocialLinks/SocialLinks'
 import contacts from '../../Data/contacts.json'
 
 export default function Footer() {

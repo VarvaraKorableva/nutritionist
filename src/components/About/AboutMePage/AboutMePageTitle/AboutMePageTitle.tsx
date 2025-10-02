@@ -1,5 +1,4 @@
 import './AboutMePageTitle.css'
-//import { FaLinkedin, FaInstagram, FaWhatsapp, FaTelegram, FaGoogle } from 'react-icons/fa'
 import Container from '../../../UI-Kit/Container/Container'
 
 export default function AboutMePageTitle() {

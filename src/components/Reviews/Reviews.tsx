@@ -1,5 +1,4 @@
 import './Reviews.css'
-import Heading from '../UI-Kit/Heading/Heading'
 import Container from '../UI-Kit/Container/Container'
 import reviews from '../../Data/reviews.json'
 

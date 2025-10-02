@@ -1,7 +1,6 @@
 import './CallToAction.css'
 import Container from '../UI-Kit/Container/Container'
 import Heading from '../UI-Kit/Heading/Heading'
-import { Link } from 'react-router-dom';
 
 export default function CallToAction() {
     return (
