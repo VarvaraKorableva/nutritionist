@@ -12,8 +12,14 @@ export default function CallToAction() {
                     <p className="CallToAction__text text">
                         Запишитесь на бесплатную 20-минутную консультацию, чтобы узнать, как мы можем поработать вместе
                     </p>
-
-                    <Link to={'/about-me'} className="CallToAction__linkToPage btn">Записаться на звонок</Link>
+                    <a 
+                        href="https://forms.yandex.ru/u/68dd001750569022682f3093" 
+                        className="CallToAction__linkToPage btn" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                    >
+                        Записаться на звонок
+                    </a>
                 </Container>
             </Container>
         </Container>

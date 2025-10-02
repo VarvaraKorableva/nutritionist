@@ -64,6 +64,8 @@
     align-self: start;
     transition: transform 0.2s ease;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .CallToActionBeginSection__linkToPage:hover {

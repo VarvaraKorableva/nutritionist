@@ -42,7 +42,14 @@ export default function Mission() {
                             Через осознанность мы проясняем, чего на самом деле хотим, и шаг за шагом движемся к жизни, в которой больше радости, баланса и внутреннего согласия.
                         </p>
                     </div>
-                    <Link to={'/about-me'} className="mission__link btn">Хочу попробовать</Link>
+                    <a 
+                        href="https://forms.yandex.ru/u/68dd001750569022682f3093" 
+                        className="mission__link btn" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                    >
+                        Хочу попробовать
+                    </a>
                 </Container>
             </Container>
         </Container>

@@ -13,7 +13,12 @@ export default function CallToActionBeginSection() {
                         Давай начнём с малого — сделай первый шаг уже сегодня
                     </p>
 
-                    <Link to={'/about-me'} className="CallToActionBeginSection__linkToPage btn">Записаться на бесплатную консультацию</Link>
+                    <a 
+                        href="https://forms.yandex.ru/u/68dd001750569022682f3093" 
+                        className="CallToActionBeginSection__linkToPage" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                    >Записаться на бесплатную консультацию</a>
                 </Container>
             </Container>
         </Container>
