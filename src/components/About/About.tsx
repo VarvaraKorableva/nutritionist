@@ -7,7 +7,9 @@ import pic from '/images/rina1.jpeg'
 export default function About() {
   return (
     <Container as='section' baseClassName='wrapper' className="about__section">
+        
         <Container as='div' baseClassName='container' className="about__wrapper">
+
           <img className="about__heroPic" src={pic} alt={pic}></img>
         
           <div className="about__heroTextContainer">
@@ -21,6 +23,7 @@ export default function About() {
 
           <div className="about__heroPicAndTextContainer"></div>
 
+        
         </Container>
     </Container>
   )

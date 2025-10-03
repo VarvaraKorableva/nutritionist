@@ -342,6 +342,28 @@
 
 }
 
+@media screen and (max-width: 370px) {
+    .hero__btn-container {
+        gap: 15px;
+    }
+
+    .hero__formLink {
+        font-size: 14px;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 335px) {
+    .hero__btn-container {
+        gap: 10px;
+    }
+
+    .hero__formLink {
+        font-size: 12px;
+        gap: 5px;
+    }
+}
+
 @keyframes fadeInUp {
     from {
       opacity: 0;

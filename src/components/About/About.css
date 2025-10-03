@@ -17,13 +17,11 @@
     max-height: 600px;
     min-height: 500px;
     flex-shrink: 0;
-    /*background-image: url(../../images/herophoto.jpg);*/
     background-position: center;
-    background-size: cover;
+    object-fit: contain;
     background-repeat: no-repeat;
     position: relative;
     z-index: 2;
-    flex-shrink: 0;
 }
 
 .about__heroPicAndTextContainer {
@@ -40,7 +38,7 @@
     right: 0;
     top: 0;
     width: 60%;
-    height: calc(500px + 200px);
+    height: 700px;
     z-index: 0;
 }
 
@@ -116,6 +114,18 @@
 @media screen and (max-width: 1250px) {
     .about__heroPicAndTextContainer {
         width: 50%;
+    }
+}
+
+@media screen and (max-width: 1241px) {
+    .about__heroPicAndTextContainer {
+        height: 750px;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .about__heroPicAndTextContainer {
+        height: 800px;
     }
 }
 
