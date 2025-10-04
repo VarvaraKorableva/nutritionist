@@ -1,5 +1,5 @@
 import './Container.css'
-import { ReactNode, ElementType, forwardRef } from 'react'
+import { ElementType, forwardRef } from 'react'
 
 type ContainerProps = {
   children?: React.ReactNode
