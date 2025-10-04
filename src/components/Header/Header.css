@@ -150,14 +150,13 @@
     .header__navWrapper {
         gap: 5px;
     }
+    .header__logoName {
+        display: flex;
+        font-size: 14px!important;
+    }
 }
 
 @media screen and (max-width: 380px) {
-    .header__logoName {
-        display: flex;
-        flex-wrap: nowrap;
-        font-size: 14px!important;
-    }
 
     .header__burgerIcon {
         height: 22px;

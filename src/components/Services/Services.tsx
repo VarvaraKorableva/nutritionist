@@ -4,8 +4,8 @@ import services from '../../Data/services.json'
 
 export default function Services() {
     return (
-        <section className="services__wrapper" id="services">
-            <Container>
+        <Container as="section" baseClassName='wrapper' id="services">
+            <Container className="services__wrapper">
 
                 <ul className="services__cardWrapper">
                     {services.map(service => (
@@ -17,7 +17,7 @@ export default function Services() {
                             {/* список тарифов */}
                             <ul className="services__durations">
                                 {service.durations.map((d, index) => (
-                                    <li key={index} className="services__durationItem">
+                                    <li key={index} className="services__durationItem text">
                                         <strong>{d.label}:</strong> {d.price_rub} ₽ ({d.price_ils} ₪)
                                     </li>
                                 ))}
@@ -26,7 +26,7 @@ export default function Services() {
                             {/* список особенностей */}
                             <ul className="services__features">
                                 {service.features.map((feature, index) => (
-                                    <li key={index} className="services__feature">
+                                    <li key={index} className="services__feature text">
                                         {feature}
                                     </li>
                                 ))}
@@ -36,6 +36,6 @@ export default function Services() {
                     ))}
                 </ul>
             </Container>
-        </section>
+        </Container>
     )
 }

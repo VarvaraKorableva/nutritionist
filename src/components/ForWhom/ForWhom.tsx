@@ -13,7 +13,7 @@ export default function ForWhom() {
             <Container as='div' baseClassName='container' className="forWhom__containerHeading">
             <Heading>Кому подойдет работа со мной?</Heading>
 
-                <ul className="forWhom__textContainer">
+                <ul className="forWhom__textContainer text">
                     <li>
                         <p className="forWhom__text">Тому, кто выбирает осознанный подход к своему физическому и ментальному здоровью вместо опасных экспериментов</p>
                     </li>

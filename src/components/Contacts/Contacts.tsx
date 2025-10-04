@@ -6,7 +6,7 @@ import { FaInstagram, FaWhatsapp, FaTelegram, FaGoogle } from 'react-icons/fa'
 export default function Contacts() {
     return(
         <Container className='Contacts__section'>
-            <p className='Contacts__title'>Вы всегда можете связаться со мной удобным для вас способом:</p>
+            <h3 className='Contacts__title'>Вы всегда можете связаться со мной удобным для вас способом:</h3>
             <ul>
                 <li className='Contacts__li'>{contacts[0].tel}</li>
                 <li className='Contacts__li'>                    

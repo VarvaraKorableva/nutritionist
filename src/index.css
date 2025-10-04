@@ -52,6 +52,7 @@ body {
   }
   .text {
     font-size: 16px;
+    line-height: 28px;
   }
   .btn {
     font-size: 18px;

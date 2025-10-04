@@ -18,11 +18,10 @@
     min-height: 500px;
     flex-shrink: 0;
     background-position: center;
-    background-size: cover;
+    object-fit: contain;
     background-repeat: no-repeat;
     position: relative;
     z-index: 2;
-    flex-shrink: 0;
 }
 
 .forWhom__text {
@@ -40,8 +39,52 @@
     }
 }
 
+@media screen and (max-width: 1050px) {
+    .forWhom__heroPic {
+        width: 350px;
+        max-height: 500px;
+        min-height: 400px;
+    }
+
+    .forWhom__container {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .forWhom__container {
+        flex-direction: column;
+    }
+}
+
+
 @media screen and (max-width: 500px) {
     .forWhom__wrapper {
         padding-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    .forWhom__heroPic {
+        width: 300px;
+        max-height: 350px;
+        min-height: 300px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .forWhom__heroPic {
+        width: 250px;
+        max-height: 250px;
+        min-height: 200px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .forWhom__heroPic {
+        width: 200px;
+        max-height: 250px;
+        min-height: 200px;
     }
 }
