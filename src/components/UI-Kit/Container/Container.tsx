@@ -2,11 +2,11 @@ import './Container.css'
 import { ReactNode, ElementType, forwardRef } from 'react'
 
 type ContainerProps = {
-  children: ReactNode
+  children?: React.ReactNode
   className?: string
   as?: ElementType
   baseClassName?: 'container' | 'wrapper'
-}
+} & React.HTMLAttributes<HTMLElement>
 
 // Используем forwardRef, чтобы можно было пробросить ref
 const Container = forwardRef<HTMLElement, ContainerProps>(function Container(
