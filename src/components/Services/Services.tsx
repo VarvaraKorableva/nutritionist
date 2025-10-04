@@ -4,7 +4,7 @@ import services from '../../Data/services.json'
 
 export default function Services() {
     return (
-        <Container as="section" baseClassName='wrapper' id="services">
+        <Container baseClassName='wrapper' id="services">
             <Container className="services__wrapper">
 
                 <ul className="services__cardWrapper">
